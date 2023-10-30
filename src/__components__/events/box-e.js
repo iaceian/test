@@ -1,6 +1,6 @@
-import { Link } from "react-router-dom"
-import { Panel, PanelBody, PanelFooter, PanelHeader } from "../../components/panel/panel"
-
+import { Panel, PanelBody, PanelFooter, PanelHeader } from '../../components/panel/panel'
+import { PreEnrollmentForm } from '../download/pre-enrollment-form'
+import { Details } from '../redirect/details'
 
 export const BoxE = () => {
   return (
@@ -14,11 +14,6 @@ export const BoxE = () => {
             <tbody>
               <tr>
                 <td>Fri-Sat-Sun</td>
-                <td>Oct. 27, 28 & 29</td>
-                <td>CDO</td>
-              </tr>
-              <tr>
-                <td>Fri-Sat-Sun</td>
                 <td>Nov. 24, 25 & 26</td>
                 <td>Balayan, Batangas</td>
               </tr>
@@ -27,12 +22,8 @@ export const BoxE = () => {
         </div>
       </PanelBody>
       <PanelFooter>
-        <button type='button' className='btn btn-outline-info me-1 mb-1'>
-          Register
-        </button>
-        <button type='button' className='btn btn-outline-info me-1 mb-1'>
-          <Link to='/events/class-details'>Details</Link>
-        </button>
+        <PreEnrollmentForm />
+        <Details />
       </PanelFooter>
     </Panel>
   )

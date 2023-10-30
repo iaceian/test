@@ -1,6 +1,7 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
-import { Panel, PanelHeader, PanelBody, PanelFooter } from '../../components/panel/panel.jsx'
+import { Panel, PanelBody, PanelFooter, PanelHeader } from '../../components/panel/panel.jsx'
+import { PreEnrollmentForm } from '../download/pre-enrollment-form.js'
+import { Details } from '../redirect/details.js'
 
 export const BoxB = () => {
   return (
@@ -34,26 +35,20 @@ export const BoxB = () => {
               <tr>
                 <td>6th batch</td>
                 <td>Sept. 17, 24, Oct. 1, 8, 15 & 29 w/PSP</td>
-                <td>JCO Southmall Las Piñas 10:30-12:30pm</td>
-                <td>JCO Southmall Las Piñas 02:00-04:15pm</td>
+                <td>Santana Grooves, Parañaque 09:00-11:15am</td>
               </tr>
               <tr>
                 <td>7th batch</td>
-                <td>Nov. 5, 12, 19, 26, Dec, 3 & 17 w/PSP</td>
-                <td>JCO Southmall Las Piñas 10:30-12:30pm</td>
-                <td>JCO Southmall Las Piñas 02:00-04:15pm</td>
+                <td>Oct. 29, Nov. 05,12,19,26 & Dec.03 w/PSP</td>
+                <td>SM Sucat Bldg B, Parañaque 09:15-11:30am</td>
               </tr>
             </tbody>
           </table>
         </div>
       </PanelBody>
       <PanelFooter>
-        <button type='button' className='btn btn-outline-info me-1 mb-1'>
-          Register
-        </button>
-        <button type='button' className='btn btn-outline-info me-1 mb-1'>
-          <Link to='/events/class-details'>Details</Link>
-        </button>
+        <PreEnrollmentForm />
+        <Details />
       </PanelFooter>
     </Panel>
   )

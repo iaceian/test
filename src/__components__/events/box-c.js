@@ -1,6 +1,7 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
-import { Panel, PanelHeader, PanelBody, PanelFooter } from '../../components/panel/panel.jsx'
+import { Panel, PanelBody, PanelFooter, PanelHeader } from '../../components/panel/panel.jsx'
+import { PreEnrollmentForm } from '../download/pre-enrollment-form.js'
+import { Details } from '../redirect/details.js'
 
 export const BoxC = () => {
   return (
@@ -35,12 +36,8 @@ export const BoxC = () => {
         </div>
       </PanelBody>
       <PanelFooter>
-        <button type='button' className='btn btn-outline-info me-1 mb-1'>
-          Register
-        </button>
-        <button type='button' className='btn btn-outline-info me-1 mb-1'>
-          <Link to='/events/class-details'>Details</Link>
-        </button>
+        <PreEnrollmentForm />
+        <Details />
       </PanelFooter>
     </Panel>
   )

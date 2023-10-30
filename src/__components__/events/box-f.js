@@ -1,5 +1,6 @@
-import { Link } from 'react-router-dom'
 import { Panel, PanelBody, PanelFooter, PanelHeader } from '../../components/panel/panel'
+import { OnlineRegistrationForm } from '../download/online-registration-form'
+import { Details } from '../redirect/details'
 
 export const BoxF = () => {
   return (
@@ -11,27 +12,19 @@ export const BoxF = () => {
             <tbody>
               <tr>
                 <td>Tuesday</td>
-                <td>01:45 - 02:45pm; 03:00 - 04:00pm; 04:15 - 05:15pm</td>
+                <td>01:30 - 02:30pm</td>
               </tr>
               <tr>
-                <td>Thursday</td>
-                <td>03:00 - 04:00pm; 04:15 - 05:15pm; 05:30 - 06:30pm</td>
-              </tr>
-              <tr>
-                <td>Friday</td>
-                <td>02:30 - 03:30pm</td>
+                <td>Wednesday</td>
+                <td>01:30 - 02:30pm</td>
               </tr>
             </tbody>
           </table>
         </div>
       </PanelBody>
       <PanelFooter>
-        <button type='button' className='btn btn-outline-info me-1 mb-1'>
-          Register
-        </button>
-        <button type='button' className='btn btn-outline-info me-1 mb-1'>
-          <Link to='/events/class-details'>Details</Link>
-        </button>
+        <OnlineRegistrationForm />
+        <Details />
       </PanelFooter>
     </Panel>
   )

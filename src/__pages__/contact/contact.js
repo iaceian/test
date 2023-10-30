@@ -15,7 +15,7 @@ function Contact() {
       <div className='row'>
         <div className='col-xl-6'>
           <Panel>
-            <PanelHeader className='bg-cyan-700 text-white'>Metropolitan Chess Center</PanelHeader>
+            <PanelHeader>Metropolitan Chess Center</PanelHeader>
             <PanelBody>
               <table>
                 <tr>

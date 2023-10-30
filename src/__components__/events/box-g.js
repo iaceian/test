@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom'
 import { Panel, PanelBody, PanelHeader } from '../../components/panel/panel'
+import { StandardRegistrationForm } from '../download/standard-registration-form'
 
 export const BoxG = () => {
   return (
@@ -17,13 +18,11 @@ export const BoxG = () => {
                 <td>3rd leg Jul. 29-30</td>
                 <td>4th leg Aug. 26-27</td>
                 <td>5th leg Oct. 21-22</td>
-                <td>Pamaskong Handog FIDE Rated Dec. 09-10</td>
+                <td>MCC Pamaskong Handog Dec. 09-10</td>
               </tr>
               <tr>
                 <td>
-                  <button type='button' className='btn btn-outline-info me-1 mb-1'>
-                    Register
-                  </button>
+                  <StandardRegistrationForm />
                 </td>
                 <td>
                   <button type='button' className='btn btn-outline-info me-1 mb-1'>
