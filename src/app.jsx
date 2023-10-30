@@ -11,7 +11,7 @@ import ThemePanel from './components/theme-panel/theme-panel.jsx';
 
 function App() {	
 	const [appTheme] = useState('');
-	const [appDarkMode, setAppDarkMode] = useState(false);
+	const [appDarkMode, setAppDarkMode] = useState(true);
 	const [appGradientEnabled, setAppGradientEnabled] = useState(false);
 	const [appHeaderNone, setAppHeaderNone] = useState(false);
 	const [appHeaderFixed, setAppHeaderFixed] = useState(true);

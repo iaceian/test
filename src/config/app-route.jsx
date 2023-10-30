@@ -3,6 +3,20 @@ import { Outlet } from 'react-router-dom';
 
 import App from './../app.jsx';
 
+import Blank1 from './../__pages__/test1/blank1.js';
+import Events from './../__pages__/events/events.js';
+import ClassDetails from '../__pages__/events/class-details/class-details.js';
+import Leg2Details from '../__pages__/events/leg2-details/leg2-details.js';
+import Leg3Details from '../__pages__/events/leg3-details/leg3-details.js';
+import Leg4Details from '../__pages__/events/leg4-details/leg4-details.js';
+import Leg5Details from '../__pages__/events/leg5-details/leg5-details.js';
+import PamaskongHandogDetails from '../__pages__/events/pamaskong-handog-details/pamaskong-handog-details.js';
+import Checkmate from '../__pages__/checkmate/checkmate.js';
+import Contact from '../__pages__/contact/contact.js';
+import Archive from '../__pages__/archive/archive.js';
+import Tournaments from '../__pages__/tournaments/tournaments.js';
+import Tournaments2 from '../__pages__/tournaments/tournaments2.js';
+
 import DashboardV1 from './../pages/dashboard/dashboard-v1.js';
 import DashboardV2 from './../pages/dashboard/dashboard-v2.js';
 import DashboardV3 from './../pages/dashboard/dashboard-v3.js';
@@ -79,170 +93,223 @@ import LoginV3 from './../pages/user/login-v3.js';
 import RegisterV3 from './../pages/user/register-v3.js';
 import HelperCSS from './../pages/helper/helper-css.js';
 
+
 const AppRoute = [
   {
-    path: '*', 
+    path: '*',
     element: <App />,
     children: [
-    	{
-				path: '', 
-				element: <DashboardV3 />
-			},
-    	{
-				path: 'dashboard/*', 
-				element: <Outlet />,
-				children: [
-					{ path: 'v1', element: <DashboardV1 /> },
-					{ path: 'v2', element: <DashboardV2 /> },
-					{ path: 'v3', element: <DashboardV3 /> }
-				]
-			},
-			{
-				path: 'email/*', 
-				element: <Outlet />,
-				children: [
-					{ path: 'inbox', element: <EmailInbox /> },
-					{ path: 'compose', element: <EmailCompose /> },
-					{ path: 'detail', element: <EmailDetail /> }
-				]
-			},
-			{
-				path: 'widgets', 
-				element: <Widgets />
-			},
-			{
-				path: 'ui/*', 
-				element: <Outlet />,
-				children: [
-					{ path: 'general', element: <UIGeneral /> },
-					{ path: 'typography', element: <UITypography /> },
-					{ path: 'tabs-accordion', element: <UITabsAccordion /> },
-					{ path: 'modal-notification', element: <UIModalNotification /> },
-					{ path: 'widget-boxes', element: <UIWidgetBoxes /> },
-					{ path: 'media-object', element: <UIMediaObject /> },
-					{ path: 'buttons', element: <UIButtons /> },
-					{ path: 'icon-duotone', element: <UIIconDuotone /> },
-					{ path: 'icon-fontawesome', element: <UIIconFontAwesome /> },
-					{ path: 'icon-bootstrap', element: <UIIconBootstrap /> },
-					{ path: 'icon-simple-line-icons', element: <UIIconSimpleLineIcons /> },
-					{ path: 'language-bar-icon', element: <UILanguageBarIcon /> },
-					{ path: 'social-buttons', element: <UISocialButtons /> }
-				]
-			},
-			{
-				path: 'bootstrap-5', 
-				element: <Bootstrap5 />
-			},
-			{
-				path: 'form/*', 
-				element: <Outlet />,
-				children: [
-					{ path: 'elements', element: <FormElements /> },
-					{ path: 'plugins', element: <FormPlugins /> },
-					{ path: 'wizards', element: <FormWizards /> }
-				]
-			},
-			{
-				path: 'table/*', 
-				element: <Outlet />,
-				children: [
-					{ path: 'elements', element: <TableElements /> },
-					{ path: 'plugins', element: <TablePlugins /> }
-				]
-			},
-			{
-				path: 'pos/*', 
-				element: <Outlet />,
-				children: [
-					{ path: 'customer-order', element: <PosCustomerOrder /> },
-					{ path: 'kitchen-order', element: <PosKitchenOrder /> },
-					{ path: 'counter-checkout', element: <PosCounterCheckout /> },
-					{ path: 'table-booking', element: <PosTableBooking /> },
-					{ path: 'menu-stock', element: <PosMenuStock /> }
-				]
-			},
-			{
-				path: 'chart/*', 
-				element: <Outlet />,
-				children: [
-					{ path: 'js', element: <ChartJS /> },
-					{ path: 'apex', element: <ChartApex /> }
-				]
-			},
-			{
-				path: 'calendar', 
-				element: <Calendar />
-			},
-			{
-				path: 'map', 
-				element: <Map />
-			},
-			{
-				path: 'gallery', 
-				element: <Gallery />
-			},
-			{
-				path: 'page-option/*', 
-				element: <Outlet />,
-				children: [
-					{ path: 'blank', element: <PageBlank /> },
-					{ path: 'with-footer', element: <PageWithFooter /> },
-					{ path: 'with-fixed-footer', element: <PageWithFixedFooter /> },
-					{ path: 'without-sidebar', element: <PageWithoutSidebar /> },
-					{ path: 'with-right-sidebar', element: <PageWithRightSidebar /> },
-					{ path: 'with-minified-sidebar', element: <PageWithMinifiedSidebar /> },
-					{ path: 'with-two-sidebar', element: <PageWithTwoSidebar /> },
-					{ path: 'full-height', element: <PageFullHeight /> },
-					{ path: 'with-wide-sidebar', element: <PageWithWideSidebar /> },
-					{ path: 'with-light-sidebar', element: <PageWithLightSidebar /> },
-					{ path: 'with-mega-menu', element: <PageWithMegaMenu /> },
-					{ path: 'with-top-menu', element: <PageWithTopMenu /> },
-					{ path: 'with-boxed-layout', element: <PageWithBoxedLayout /> },
-					{ path: 'with-mixed-menu', element: <PageWithMixedMenu /> },
-					{ path: 'boxed-layout-with-mixed-menu', element: <PageBoxedLayoutWithMixedMenu /> },
-					{ path: 'with-boxed-layout', element: <PageWithBoxedLayout /> },
-					{ path: 'with-transparent-sidebar', element: <PageWithTransparentSidebar /> },
-					{ path: 'with-search-sidebar', element: <PageWithSearchSidebar /> }
-				]
-			},
-			{
-				path: 'extra/*', 
-				element: <Outlet />,
-				children: [
-					{ path: 'timeline', element:<ExtraTimeline /> },
-					{ path: 'coming-soon', element:<ExtraComingSoon />},
-					{ path: 'search', element:<ExtraSearch /> },
-					{ path: 'invoice', element:<ExtraInvoice /> },
-					{ path: 'error', element:<ExtraError /> },
-					{ path: 'profile', element:<ExtraProfile /> },
-					{ path: 'scrum-board', element:<ExtraScrumBoard /> },
-					{ path: 'cookie-acceptance-banner', element:<ExtraCookieAcceptanceBanner /> },
-					{ path: 'orders', element:<ExtraOrders /> },
-					{ path: 'order-details', element:<ExtraOrderDetails /> },
-					{ path: 'products', element:<ExtraProducts /> },
-					{ path: 'product-details', element:<ExtraProductDetails /> },
-					{ path: 'file-manager', element:<ExtraFileManager /> },
-					{ path: 'pricing-page', element:<ExtraPricingPage /> },
-					{ path: 'messenger-page', element:<ExtraMessengerPage /> },
-					{ path: 'data-management', element:<ExtraDataManagement /> },
-					{ path: 'settings-page', element:<ExtraSettingsPage /> }
-				]
-			}, 
-			{
-				path: 'user/*', 
-				element: <Outlet />,
-				children: [
-					{ path: 'login-v1', element:<LoginV1 /> },
-					{ path: 'login-v2', element:<LoginV2 /> },
-					{ path: 'login-v3', element:<LoginV3 /> },
-					{ path: 'register-v3', element:<RegisterV3 /> }
-				]
-			}, 
-			{
-				path: 'helper/css', 
-				element: <HelperCSS />
-			}
-		]
+        {
+            path: '',
+            element: <DashboardV3 />
+        },
+        {
+            path: 'blank1',
+            element: <Blank1 />
+        },
+        {
+            path: 'events',
+            element: <Events />
+        },
+        {
+            path: 'events/class-details',
+            element: <ClassDetails />
+        },
+        {
+            path: 'events/leg2-details',
+            element: <Leg2Details />
+        },
+        {
+            path: 'events/leg3-details',
+            element: <Leg3Details />
+        },
+        {
+            path: 'events/leg4-details',
+            element: <Leg4Details />
+        },
+        {
+            path: 'events/leg5-details',
+            element: <Leg5Details />
+        },
+        {
+            path: 'events/pamaskong-handog-details',
+            element: <PamaskongHandogDetails />
+        },
+        {
+            path: 'checkmate',
+            element: <Checkmate />
+        },
+        {
+            path: 'contact',
+            element: <Contact />
+        },
+        {
+            path: 'archive',
+            element: <Archive />
+        },
+        {
+            path: 'tournaments',
+            element: <Tournaments />
+        },
+        {
+            path: 'tournaments2',
+            element: <Tournaments2 />
+        },
+        {
+            path: 'dashboard/*',
+            element: <Outlet />,
+            children: [
+                { path: 'v1', element: <DashboardV1 /> },
+                { path: 'v2', element: <DashboardV2 /> },
+                { path: 'v3', element: <DashboardV3 /> }
+            ]
+        },
+            {
+                path: 'email/*',
+                element: <Outlet />,
+                children: [
+                    { path: 'inbox', element: <EmailInbox /> },
+                    { path: 'compose', element: <EmailCompose /> },
+                    { path: 'detail', element: <EmailDetail /> }
+                ]
+            },
+            {
+                path: 'widgets',
+                element: <Widgets />
+            },
+            {
+                path: 'ui/*',
+                element: <Outlet />,
+                children: [
+                    { path: 'general', element: <UIGeneral /> },
+                    { path: 'typography', element: <UITypography /> },
+                    { path: 'tabs-accordion', element: <UITabsAccordion /> },
+                    { path: 'modal-notification', element: <UIModalNotification /> },
+                    { path: 'widget-boxes', element: <UIWidgetBoxes /> },
+                    { path: 'media-object', element: <UIMediaObject /> },
+                    { path: 'buttons', element: <UIButtons /> },
+                    { path: 'icon-duotone', element: <UIIconDuotone /> },
+                    { path: 'icon-fontawesome', element: <UIIconFontAwesome /> },
+                    { path: 'icon-bootstrap', element: <UIIconBootstrap /> },
+                    { path: 'icon-simple-line-icons', element: <UIIconSimpleLineIcons /> },
+                    { path: 'language-bar-icon', element: <UILanguageBarIcon /> },
+                    { path: 'social-buttons', element: <UISocialButtons /> }
+                ]
+            },
+            {
+                path: 'bootstrap-5',
+                element: <Bootstrap5 />
+            },
+            {
+                path: 'form/*',
+                element: <Outlet />,
+                children: [
+                    { path: 'elements', element: <FormElements /> },
+                    { path: 'plugins', element: <FormPlugins /> },
+                    { path: 'wizards', element: <FormWizards /> }
+                ]
+            },
+            {
+                path: 'table/*',
+                element: <Outlet />,
+                children: [
+                    { path: 'elements', element: <TableElements /> },
+                    { path: 'plugins', element: <TablePlugins /> }
+                ]
+            },
+            {
+                path: 'pos/*',
+                element: <Outlet />,
+                children: [
+                    { path: 'customer-order', element: <PosCustomerOrder /> },
+                    { path: 'kitchen-order', element: <PosKitchenOrder /> },
+                    { path: 'counter-checkout', element: <PosCounterCheckout /> },
+                    { path: 'table-booking', element: <PosTableBooking /> },
+                    { path: 'menu-stock', element: <PosMenuStock /> }
+                ]
+            },
+            {
+                path: 'chart/*',
+                element: <Outlet />,
+                children: [
+                    { path: 'js', element: <ChartJS /> },
+                    { path: 'apex', element: <ChartApex /> }
+                ]
+            },
+            {
+                path: 'calendar',
+                element: <Calendar />
+            },
+            {
+                path: 'map',
+                element: <Map />
+            },
+            {
+                path: 'gallery',
+                element: <Gallery />
+            },
+            {
+                path: 'page-option/*',
+                element: <Outlet />,
+                children: [
+                    { path: 'blank', element: <PageBlank /> },
+                    { path: 'with-footer', element: <PageWithFooter /> },
+                    { path: 'with-fixed-footer', element: <PageWithFixedFooter /> },
+                    { path: 'without-sidebar', element: <PageWithoutSidebar /> },
+                    { path: 'with-right-sidebar', element: <PageWithRightSidebar /> },
+                    { path: 'with-minified-sidebar', element: <PageWithMinifiedSidebar /> },
+                    { path: 'with-two-sidebar', element: <PageWithTwoSidebar /> },
+                    { path: 'full-height', element: <PageFullHeight /> },
+                    { path: 'with-wide-sidebar', element: <PageWithWideSidebar /> },
+                    { path: 'with-light-sidebar', element: <PageWithLightSidebar /> },
+                    { path: 'with-mega-menu', element: <PageWithMegaMenu /> },
+                    { path: 'with-top-menu', element: <PageWithTopMenu /> },
+                    { path: 'with-boxed-layout', element: <PageWithBoxedLayout /> },
+                    { path: 'with-mixed-menu', element: <PageWithMixedMenu /> },
+                    { path: 'boxed-layout-with-mixed-menu', element: <PageBoxedLayoutWithMixedMenu /> },
+                    { path: 'with-boxed-layout', element: <PageWithBoxedLayout /> },
+                    { path: 'with-transparent-sidebar', element: <PageWithTransparentSidebar /> },
+                    { path: 'with-search-sidebar', element: <PageWithSearchSidebar /> }
+                ]
+            },
+            {
+                path: 'extra/*',
+                element: <Outlet />,
+                children: [
+                    { path: 'timeline', element:<ExtraTimeline /> },
+                    { path: 'coming-soon', element:<ExtraComingSoon />},
+                    { path: 'search', element:<ExtraSearch /> },
+                    { path: 'invoice', element:<ExtraInvoice /> },
+                    { path: 'error', element:<ExtraError /> },
+                    { path: 'profile', element:<ExtraProfile /> },
+                    { path: 'scrum-board', element:<ExtraScrumBoard /> },
+                    { path: 'cookie-acceptance-banner', element:<ExtraCookieAcceptanceBanner /> },
+                    { path: 'orders', element:<ExtraOrders /> },
+                    { path: 'order-details', element:<ExtraOrderDetails /> },
+                    { path: 'products', element:<ExtraProducts /> },
+                    { path: 'product-details', element:<ExtraProductDetails /> },
+                    { path: 'file-manager', element:<ExtraFileManager /> },
+                    { path: 'pricing-page', element:<ExtraPricingPage /> },
+                    { path: 'messenger-page', element:<ExtraMessengerPage /> },
+                    { path: 'data-management', element:<ExtraDataManagement /> },
+                    { path: 'settings-page', element:<ExtraSettingsPage /> }
+                ]
+            },
+            {
+                path: 'user/*',
+                element: <Outlet />,
+                children: [
+                    { path: 'login-v1', element:<LoginV1 /> },
+                    { path: 'login-v2', element:<LoginV2 /> },
+                    { path: 'login-v3', element:<LoginV3 /> },
+                    { path: 'register-v3', element:<RegisterV3 /> }
+                ]
+            },
+            {
+                path: 'helper/css',
+                element: <HelperCSS />
+            }
+        ]
   }
 ];
 
