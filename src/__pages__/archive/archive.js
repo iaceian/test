@@ -1,5 +1,6 @@
 import { React, useEffect, useState } from 'react'
 import { MyGroup } from '../../__components__/archive/my-group'
+import { Footer } from '../../__components__/footer/footer'
 
 function Archive() {
   const [pictures, setPictures] = useState([])
@@ -26,6 +27,7 @@ function Archive() {
           {pictures}
         </div>
       </div>
+      <Footer />
     </div>
   )
 }

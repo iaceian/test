@@ -1,5 +1,6 @@
 import { React, useEffect, useState } from 'react'
 import { MyGroup } from '../../__components__/checkmate/my-group'
+import { Footer } from '../../__components__/footer/footer'
 
 function Checkmate() {
   const [pictures, setPictures] = useState([])
@@ -26,6 +27,7 @@ function Checkmate() {
           {pictures}
         </div>
       </div>
+      <Footer />
     </div>
   )
 }

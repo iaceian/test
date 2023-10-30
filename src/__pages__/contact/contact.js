@@ -1,5 +1,6 @@
 import React from 'react'
-import { Panel, PanelHeader, PanelBody } from '../../components/panel/panel.jsx'
+import { Panel, PanelHeader, PanelBody } from '../../components/panel/panel'
+import { FooterFixed } from '../../__components__/footer/footer-fixed'
 
 function Contact() {
   return (
@@ -54,6 +55,8 @@ function Contact() {
               </table>
             </PanelBody>
           </Panel>
+
+          <FooterFixed />
         </div>
       </div>
     </div>

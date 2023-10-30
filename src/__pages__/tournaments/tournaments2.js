@@ -1,5 +1,6 @@
 import React from 'react'
 import { Panel, PanelBody, PanelHeader } from '../../components/panel/panel.jsx'
+import { Footer } from '../../__components__/footer/footer.js'
 
 function Tournaments2() {
   return (
@@ -108,6 +109,8 @@ function Tournaments2() {
           </table>
         </PanelBody>
       </Panel>
+
+      <Footer />
     </div>
   )
 }

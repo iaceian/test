@@ -5,6 +5,7 @@ import { BoxC } from '../../__components__/events/box-c'
 import { BoxE } from '../../__components__/events/box-e'
 import { BoxF } from '../../__components__/events/box-f'
 import { BoxG } from '../../__components__/events/box-g'
+import { Footer } from '../../__components__/footer/footer'
 
 function Events() {
   return (
@@ -13,17 +14,13 @@ function Events() {
         <li className='breadcrumb-item active'>Events</li>
       </ol>
       <h1 className='page-header'>2023 Updated Milo Checkmate Year-round Program Nationwide (F2F/Online) and MCC Standard Training Games</h1>
-
       <BoxA />
       <BoxB />
       <BoxC />
       <BoxE />
       <BoxF />
       <BoxG />
-      <div id='footer' className='app-footer mx-0 px-0 mt-5'>
-          &copy; 2022 Metropolitan Chess Center - Dindin All Rights Reserved
-        </div>
-
+      <Footer />
     </div>
   )
 }

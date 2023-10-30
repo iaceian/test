@@ -1,6 +1,7 @@
 import React from 'react'
 import DataTable from 'react-data-table-component'
 import { Panel, PanelBody, PanelHeader } from '../../components/panel/panel'
+import { Footer } from '../../__components__/footer/footer'
 import data from './tournaments-data'
 
 function Tournaments() {
@@ -37,6 +38,8 @@ function Tournaments() {
           <DataTable columns={data.columns2} data={data.rows2} conditionalRowStyles={data.conditionalRowStyles} />
         </PanelBody>
       </Panel>
+
+      <Footer />
     </div>
   )
 }
