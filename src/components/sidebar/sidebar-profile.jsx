@@ -28,21 +28,7 @@ function SidebarProfile() {
 			{({appSidebarMinify}) => (
 				<div className="menu">
 					<div className="menu-profile">
-						<Link to="/" onClick={handleProfileExpand} className="menu-profile-link">
 							<div className="menu-profile-cover with-shadow"></div>
-							<div className="menu-profile-image">
-								<img src="../assets/img/user/user-13.jpg" alt="" />
-							</div>
-							<div className="menu-profile-info">
-								<div className="d-flex align-items-center">
-									<div className="flex-grow-1">
-										Sean Ngu
-									</div>
-									<div className="menu-caret ms-auto"></div>
-								</div>
-								<small>Front end developer</small>
-							</div>
-						</Link>
 					</div>
 					<div id="appSidebarProfileMenu" className="collapse">
 						<div className="menu-item pt-5px">

@@ -151,7 +151,7 @@ function SidebarNav() {
 					<input type="text" className="form-control" placeholder="Sidebar menu filter..." onKeyUp={handleSidebarSearch} />
 				</div>
 			)}
-			<div className="menu-header">Navigation</div>
+			<div className="menu-header"></div>
 			{menus.map((menu, i) => (
 				<NavItem key={i} menu={menu} />
 			))}

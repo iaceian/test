@@ -9,6 +9,12 @@ import DropdownMegaMenu from './dropdown/mega.jsx';
 import { AppSettings } from './../../config/app-settings.js';
 
 function Header() {
+/*
+$font-family-sans-serif:            system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !default;
+$font-family-monospace:             SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace !default;
+
+
+*/
 	return (
 		<AppSettings.Consumer>
 			{({toggleAppSidebarMobile, toggleAppSidebarEnd, toggleAppSidebarEndMobile, toggleAppTopMenuMobile, appHeaderLanguageBar, appHeaderMegaMenu, appHeaderInverse, appSidebarTwo, appTopMenu, appSidebarNone}) => (
@@ -21,8 +27,10 @@ function Header() {
 								<span className="icon-bar"></span>
 							</button>
 						)}
-						<Link to="/" className="navbar-brand"><span className="navbar-logo"></span> <b>Color</b> Admin</Link>
-						
+						<Link to="/" className="navbar-brand"><span className="navbar-logo"></span>
+							<span style={{ fontFamily: ['Calibri', 'Consolas', 'Microsoft Sans Serif', 'Segoe UI', 'Cambria', 'Verdana', 'Times New Roman'] }}>Metropolitan Chess Center</span>
+						</Link>
+
 						{appHeaderMegaMenu && (
 							<button type="button" className="navbar-mobile-toggler" data-bs-toggle="collapse" data-bs-target="#top-navbar">
 								<span className="fa-stack fa-lg text-inverse">
@@ -54,25 +62,19 @@ function Header() {
 							</button>
 						)}
 					</div>
-					
+
 					{appHeaderMegaMenu && (
 						<DropdownMegaMenu />
 					)}
-					
+
 					<div className="navbar-nav">
-						<SearchForm />
-						<DropdownNotification />
-						
-						{appHeaderLanguageBar && (
-							<DropdownLanguage />
-						)}
-						
-						<DropdownProfile />
-						
+
+
+
 						{appSidebarTwo && (
 							<div className="navbar-divider d-none d-md-block"></div>
 						)}
-						
+
 						{appSidebarTwo && (
 							<div className="navbar-item d-none d-md-block">
 								<Link to="/" onClick={toggleAppSidebarEnd} className="navbar-link icon">

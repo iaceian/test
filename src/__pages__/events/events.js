@@ -20,6 +20,9 @@ function Events() {
       <BoxE />
       <BoxF />
       <BoxG />
+      <div id='footer' className='app-footer mx-0 px-0 mt-5'>
+          &copy; 2022 Metropolitan Chess Center - Dindin All Rights Reserved
+        </div>
 
     </div>
   )
