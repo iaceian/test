@@ -184,38 +184,45 @@ function PamaskongHandogDetails() {
                         <tr>
                           <td>Champion</td>
                           <td>P 5,000.00</td>
+                          <td>+ Trophy + Gold Medal</td>
                         </tr>
                         <tr>
                           <td>Second</td>
                           <td>P 3,000.00</td>
+                          <td>+ Silver Medal</td>
                         </tr>
                         <tr>
                           <td>Third</td>
                           <td>P 2,000.00</td>
+                          <td>+ Bronze Medal</td>
                         </tr>
                         <tr>
                           <td>Fourth</td>
                           <td>P 1,500.00</td>
+                          <td>+ Bronze Medal</td>
                         </tr>
                         <tr>
                           <td>Fifth</td>
                           <td>P 1,000.00</td>
+                          <td>+ Bronze Medal</td>
                         </tr>
                         <tr>
                           <td>6th – 10th</td>
                           <td>P 500.00 ea.</td>
+                          <td>+ Bronze Medal</td>
                         </tr>
                         <tr>
                           <td>Top Category Performers</td>
-                          <td>P750 ea. (five entries are required/category)</td>
+                          <td>P750 ea.</td>
+                          <td>+ Gold Medal (5 entries are required/category)</td>
                         </tr>
                         <tr>
                           <td>Seniors (60-78 yr old);</td>
                           <td>Adults (40-59 yr old);</td>
                           <td>Provisional Adulthood (21-39 yr old);</td>
-                          <td>Juniors (20 yr old & below);</td>
-                          <td>(12 yr old & below)</td>
-                          <td>and Kiddies (8 yr old & below)</td>
+                          <td>Juniors - male/female (20 yr old & below);</td>
+                          <td>Kiddies (12 yr old & below)</td>
+                          <td>and (8 yr old & below)</td>
                         </tr>
                       </tbody>
                     </table>
@@ -223,6 +230,26 @@ function PamaskongHandogDetails() {
                 </div>
               </div>
             </li>
+            <br />
+            <strong>Special awards for currently enrolled Milo Checkmate program:</strong>
+            <div className='row'>
+                <div className='col-xl-4'>
+                  <div className='col-xl-10 col-md-6'>
+                    <table className='table mb-0'>
+                      <tbody>
+                        <tr>
+                          <td>Top Juniors –</td>
+                          <td>+ Trophy + Gold Medal</td>
+                        </tr>
+                        <tr>
+                          <td>Top Kiddies –</td>
+                          <td>+ Trophy + Gold Medal</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+              </div>
             <br />
             <li>Wear proper attire. No revealing attire please.</li>
             <br />
