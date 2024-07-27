@@ -6,6 +6,7 @@ import Archive from '../__pages__/archive/archive.js';
 import Checkmate from '../__pages__/checkmate/checkmate.js';
 import Contact from '../__pages__/contact/contact.js';
 import ClassDetails from '../__pages__/events/class-details/class-details.js';
+import Leg1Details from '../__pages__/events/leg1-details/leg1-details.js';
 import Leg2Details from '../__pages__/events/leg2-details/leg2-details.js';
 import Leg3Details from '../__pages__/events/leg3-details/leg3-details.js';
 import Leg4Details from '../__pages__/events/leg4-details/leg4-details.js';
@@ -33,6 +34,10 @@ const AppRoute = [
         {
             path: 'events/class-details',
             element: <ClassDetails />
+        },
+        {
+            path: 'events/leg1-details',
+            element: <Leg1Details />
         },
         {
             path: 'events/leg2-details',

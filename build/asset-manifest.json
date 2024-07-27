@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/static/css/main.13cf2332.css",
+    "main.js": "/static/js/main.05905023.js",
+    "static/media/coming-soon.jpg": "/static/media/coming-soon.118db6141a6143fc6377.jpg",
+    "static/media/bg-login.png": "/static/media/bg-login.a5ad9be47bf9a0253018.png",
+    "static/media/bg-login-dark-mode.png": "/static/media/bg-login-dark-mode.b4a5c65890722647a955.png",
+    "static/media/fa-solid-900.ttf": "/static/media/fa-solid-900.d75e3fd1eb12e9bd6655.ttf",
+    "static/media/fa-brands-400.ttf": "/static/media/fa-brands-400.016b4a6cdced82ab3aa1.ttf",
+    "static/media/fa-solid-900.woff2": "/static/media/fa-solid-900.b6879d41b0852f01ed5b.woff2",
+    "static/media/fa-brands-400.woff2": "/static/media/fa-brands-400.878f31251d960bd6266f.woff2",
+    "static/media/profile-cover.jpg": "/static/media/profile-cover.0dc996541d6102f95d8a.jpg",
+    "static/media/fa-regular-400.ttf": "/static/media/fa-regular-400.50701fbb8177c2dde530.ttf",
+    "static/media/cover-sidebar.jpg": "/static/media/cover-sidebar.43d83872c215a48255ea.jpg",
+    "static/media/cover-sidebar-user.jpg": "/static/media/cover-sidebar-user.63d8af46e258354b1d06.jpg",
+    "static/media/error-page-pattern.png": "/static/media/error-page-pattern.2d15e616ccf00e761a77.png",
+    "static/media/fa-regular-400.woff2": "/static/media/fa-regular-400.b041b1fa4fe241b23445.woff2",
+    "static/media/fa-v4compatibility.ttf": "/static/media/fa-v4compatibility.c6a0c95b0a95c4553700.ttf",
+    "static/media/fa-v4compatibility.woff2": "/static/media/fa-v4compatibility.1bac2991f3dbfa237aec.woff2",
+    "index.html": "/index.html",
+    "main.13cf2332.css.map": "/static/css/main.13cf2332.css.map",
+    "main.05905023.js.map": "/static/js/main.05905023.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.13cf2332.css",
+    "static/js/main.05905023.js"
+  ]
+}

@@ -6,41 +6,58 @@ import { Details } from '../redirect/details.js'
 export const BoxB = () => {
   return (
     <Panel>
-      <PanelHeader className='bg-orange-700 text-white'>B. NCR face-to-face Sundays classes</PanelHeader>
+      <PanelHeader className='bg-orange-700 text-white'>B. Sundays classes Face-to-Face</PanelHeader>
       <PanelBody>
         <div className='table-responsive'>
           <table className='table mb-0'>
             <tbody>
               <tr>
-                <td>1st batch</td>
-                <td>Jan. 8, 15, 22, 29, Feb. 5, 12, & Mar. 4</td>
-                <td>MCC HQ, Las Piñas 10:00am-12:00nn</td>
-              </tr>
-              <tr>
-                <td>2nd batch</td>
-                <td>Apr. 2, 16, 23, May 7, 13, 14, & 21</td>
-                <td>Santana Grooves, Parañaque 09:00-11:00am</td>
-              </tr>
-              <tr>
-                <td>3rd batch</td>
-                <td>May 28, Jun. 4, 11, 18, Jul. 2 & 9 w/PSP</td>
-                <td>Santana Grooves, Parañaque 09:00-11:15am</td>
-              </tr>
-              <tr>
-                <td>5th batch</td>
-                <td>Aug. 6, 13, 20, Sept. 3, 10 & 17 w/PSP</td>
+                <td>Batch 1</td>
+                <td>Jan.14, 21, 28, Feb. 04, 18 & 25</td>
+                <td>Sucat, Parañaque City (09:00-11:15am)</td>
                 <td></td>
-                <td>JCO Southmall Las Piñas 02:00-04:15pm</td>
               </tr>
               <tr>
-                <td>6th batch</td>
-                <td>Sept. 17, 24, Oct. 1, 8, 15 & 29 w/PSP</td>
-                <td>Santana Grooves, Parañaque 09:00-11:15am</td>
+                <td>Batch 2</td>
+                <td>Mar.03, 10,17, 24, 31 & Apr.07</td>
+                <td>Sucat, Parañaque City (09:00-11:15am)</td>
+                <td></td>
               </tr>
               <tr>
-                <td>7th batch</td>
-                <td>Oct. 29, Nov. 05,12,19,26 & Dec.03 w/PSP</td>
-                <td>SM Sucat Bldg B, Parañaque 09:15-11:30am</td>
+                <td>Batch 3</td>
+                <td>Apr. 14, 21, 28, May 12, 19 & 26</td>
+                <td>Sucat, Parañaque City (09:00-11:15am)</td>
+                <td></td>
+              </tr>
+              <tr>
+                <td>Batch 4</td>
+                <td>June 02,09,16,July 7,14 & 21</td>
+                <td>Sucat, Parañaque City (09:00-11:15am)</td>
+                <td></td>
+              </tr>
+              <tr>
+                <td>Batch 5 (Sun & Thu)</td>
+                <td>July 07,11,14,18, 21(tournament) & 25</td>
+                <td>Sucat, Parañaque City (09:00-11:15am)</td>
+                <td></td>
+              </tr>
+              <tr>
+                <td>Batch 6</td>
+                <td>July 28, Aug.04,11,25,Sept.01 & 08</td>
+                <td>Sucat, Parañaque City (09:00-11:15am)</td>
+                <td>SM Southmall (02:00-04:15pm)</td>
+              </tr>
+              <tr>
+                <td>Batch 7</td>
+                <td>Sept.15,22,29,Oct.13,20 & 27</td>
+                <td>Sucat, Parañaque City (09:00-11:15am)</td>
+                <td></td>
+              </tr>
+              <tr>
+                <td>Batch 8</td>
+                <td>Nov. 3, 10, 17, 24, Dec.01 & 08</td>
+                <td>Sucat, Parañaque City (09:00-11:15am)</td>
+                <td></td>
               </tr>
             </tbody>
           </table>

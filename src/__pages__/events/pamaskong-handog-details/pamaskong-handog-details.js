@@ -261,7 +261,6 @@ function PamaskongHandogDetails() {
             <br />
           </ol>
           <p>Prepared by:</p>
-          <img src='/assets/img/signature.png' alt='' style={{ objectFit: 'contain' }} />
           <p>WNM Milagros C. Emperado</p>
           <p>Tournament Director/Chief Arbiter</p>
         </PanelBody>

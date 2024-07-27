@@ -22,51 +22,63 @@ function ClassDetails() {
                 and systematic method of teachings.
               </li>
               <br />
-              <li>The curriculum is patterned after the famous and former USSR chess development scheme.</li>
-              <br />
-              <li>
-                Courses offered are for beginners, intermediate, advance and master levels for specialization. Enrollees are assessed to determine their
-                respective levels.
+              <li>The curriculum is patterned after the famous and former USSR chess development scheme.
+                  The courses are for beginners, intermediate, advance and master levels.
               </li>
               <br />
               <li>
-                Now on its 33rd year of inception, the program has produced countless titled players. Among its foremost products include the country’s cream of
-                the crop, namely, US-based grandmaster (GM) Wesley So, GM Mark Paragua, GM John Paul Gomez, GM Catalino Sadorra and GM Ronald Dableo,
+                  Enrollees are assessed to determine their respective levels. The assessment is done through a test
+                  questionnaire which will be sent at your email add.
               </li>
               <br />
               <li>
-                The program offers online sessions, F2F weekends classes during school days and daily sessions during summer with physical sports program to
-                sharpen the enrollees’ playing skills and mental quickness.
+                  The F2F program offers weekend classes (Saturdays or Sundays) during school days and twice a week
+                  during summer. Venues are located at Quezon City, Mandaluyong, Manila and Parañaque.
               </li>
               <br />
               <li>
-                Each batch of the Milo Checkmate F2F classes consists of seven sessions spread for six days. Five days for the five sessions for the lesson and
-                one day for the two sessions for the tournament. One session covers two hours and fifteen minutes (2hrs & 15min).
+                  The online program is done via zoom and held during Sundays and weekdays except Thursdays. The link
+                  is emailed at least three hours before the session starts.
               </li>
               <br />
               <li>
-                Each batch concludes with a tournament, normally held during weekends, either Saturday or Sunday, depending on the availability of the venue.
-                All enrollees (of same batch) from various venues and online classes are assembled together during the tournament and mandatory to participate.
-                They compete according to their levels to evaluate their performance after having given them a series of lessons.
-              </li>
-              <br />
-              <li>Tournament winners are awarded medals, courtesy of the supporting Milo, the No.1 energy drink in the country.</li>
-              <br />
-              <li>
-                Fees are: F2F program: P5950/batch/child. For online 1-on-1 P4800/eight sessions. Online group class P5500/ten sessions. Advance payment is
-                required. Can pay thru gcash 0922-822-6319 or any branch of Banco de Oro (BDO) account # 001480 1353 70 both under Milagros C. Emperado.
-              </li>
-              <br />
-              <li>An acknowledgement is forwarded thru messages for payment received.</li>
-              <br />
-              <li>
-                Enrollees in the F2F program, are required to bring their own chess set, notebook and pen during the session. Wear or bring face mask. Online
-                classes are via zoom and chess positions are shared on the screen.
+                  Now on its 34th year of inception, the program has produced countless of titled players whom include the
+                  US-based grandmaster (GM) Wesley So, GM Mark Paragua, GM John Paul Gomez, GM Catalino Sadorra
+                  and GM Ronald Dableo,
               </li>
               <br />
               <li>
-                For F2F onsite registration, please bring the copy of the pre-enrollment form and pay to the designated coach/MCC office staff and ask for a
-                receipt.
+                  Each batch of the Milo Checkmate F2F program consists of five sessions for the lessons and concludes
+                  with a final evaluation tournament. The lesson runs for 2 hrs. & 15min/session and 4 hours for the tournament.
+              </li>
+              <br />
+              <li>
+                  All enrollees (of same batch) from various venues and online program are assembled together during the
+                  final evaluation tournament and mandatory to participate. They compete according to their levels to
+                  evaluate their performance after having given them a series of lessons. Winners are awarded medals,
+                  courtesy of the supporting Milo, the No.1 energy drink in the country.
+              </li>
+              <br />
+              <li>
+                  The enrollment fee for F2F program is P5950/batch/child; P4800 for eight (1-on-1) online sessions and
+                  P5500 for ten sessions of group class of 4 pax. One hour/online session.  Advance payment is required.
+                  Can pay thru gcash 0922-822-6319 or BDO account # 001480 1353 70 both under Milagros C. Emperado
+              </li>
+              <br />
+              <li>
+                  Receipt copy of payment can be emailed at mccchess@yahoo.com or send it thru our facebook fan page:
+                  milo checkmate chess clinics and sports academy or thru our messenger and viber. An acknowledgement
+                  for payment received will be forwarded thru messages.
+              </li>
+              <br />
+              <li>
+                  F2F program’s enrollees are required to bring their own chess set, notebook and pen during the session.
+                  Wear or bring face mask. For online classes, the chess positions are shared on the screen.
+              </li>
+              <br />
+              <li>
+                  To enroll online, please download the pre-enrollment form. Can also register onsite and fill-up the
+                  Milo Checkmate enrollment form and pay to the designated coach and ask for a receipt.
               </li>
             </ol>
           </div>
