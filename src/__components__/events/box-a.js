@@ -63,13 +63,13 @@ export const BoxA = () => {
               </tr>
               <tr>
                 <td>Batch 7</td>
-                <td>Sept 14,21,28,Oct.12,19 & 20</td>
+                <td>Sept. 7,14,21,28,Oct.5 & 6</td>
                 <td>JCO Trinoma, Quezon City (09:15-11:30am)</td>
                 <td>Starmall Edsa Shaw Mandaluyong (02:00-04:15pm)</td>
               </tr>
               <tr>
                 <td>Batch 8</td>
-                <td>Oct.26,Nov.09,16,23,30 & Dec.01</td>
+                <td>Oct.12,19,26,Nov.09,23 & 24</td>
                 <td>JCO Trinoma, Quezon City (09:15-11:30am)</td>
                 <td>Starmall Edsa Shaw Mandaluyong (02:00-04:15pm)</td>
               </tr>

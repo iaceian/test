@@ -16,7 +16,8 @@ export const BoxG = () => {
                 <td>Feb.10-11 (1st leg)</td>
                 <td>May 04-05 (2nd leg)</td>
                 <td>Aug, 17-18 (3rd leg)</td>
-                <td>Dec. 14-15 (5th leg)</td>
+                <td>Nov. 16-17 (4th leg)</td>
+                <td>Dec. 14-15 (Milo Checkmate FIDE Rated Tournament)</td>
               </tr>
               <tr>
                 <td>
@@ -29,6 +30,11 @@ export const BoxG = () => {
                 <td>
                   <button type='button' className='btn btn-outline-info me-1 mb-1'>
                     <Link to='/events/leg3-details'>Details</Link>
+                  </button>
+                </td>
+                <td>
+                  <button type='button' className='btn btn-outline-info me-1 mb-1'>
+                    <Link to='/events/leg4-details'>Details</Link>
                   </button>
                 </td>
               </tr>
