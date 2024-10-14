@@ -198,12 +198,12 @@ function Leg4Details() {
                         </tr>
                         <tr>
                           <td>Fifth</td>
-                          <td>P 1,000.00</td>
+                          <td>P 1,200.00</td>
                           <td>+ Bronze Medal</td>
                         </tr>
                         <tr>
                           <td>6th – 10th</td>
-                          <td>P 500.00 ea.</td>
+                          <td>P 1000.00 ea.</td>
                           <td>+ Bronze Medal</td>
                         </tr>
                         <tr>
