@@ -1,2 +1,10 @@
 **/node_modules
 **/yarn.lock
+build/asset-manifest.json
+build/index.html
+build/static/js/main.80191eb4.js
+build/static/js/main.80191eb4.js.LICENSE.txt
+build/static/js/main.80191eb4.js.map
+build/static/js/main.f4730dab.js
+build/static/js/main.f4730dab.js.LICENSE.txt
+build/static/js/main.f4730dab.js.map
