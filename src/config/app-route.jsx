@@ -2,6 +2,7 @@ import React from 'react';
 
 import App from './../app.jsx';
 
+import Events from './../__pages__/events/events.js';
 import Archive from '../__pages__/archive/archive.js';
 import Checkmate from '../__pages__/checkmate/checkmate.js';
 import Contact from '../__pages__/contact/contact.js';
@@ -14,7 +15,7 @@ import Leg5Details from '../__pages__/events/leg5-details/leg5-details.js';
 import PamaskongHandogDetails from '../__pages__/events/pamaskong-handog-details/pamaskong-handog-details.js';
 import Tournaments from '../__pages__/tournaments/tournaments.js';
 import Tournaments2 from '../__pages__/tournaments/tournaments2.js';
-import Events from './../__pages__/events/events.js';
+import ScoreSheet from '../__pages__/score-sheet/score-sheet.js';
 
 
 
@@ -78,6 +79,10 @@ const AppRoute = [
         {
             path: 'tournaments2',
             element: <Tournaments2 />
+        },
+        {
+            path: 'score-sheet',
+            element: <ScoreSheet />
         }
     ]
 }
