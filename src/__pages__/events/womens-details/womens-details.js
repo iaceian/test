@@ -9,19 +9,18 @@ function WomensDetails() {
         <li className='breadcrumb-item'>
           <Link to='/events'>Events</Link>
         </li>
-        <li className='breadcrumb-item active'>1st Leg Details</li>
+        <li className='breadcrumb-item active'>Womens Details</li>
       </ol>
-      <h1 className='page-header'>1st Leg Details</h1>
+      <h1 className='page-header'>Womens Details</h1>
       <Panel>
         <PanelHeader>
-        1st leg 2025 MCC Invitational Standard Training Games February 22-23 at Starmall Edsa Shaw, Mandaluyong City
+          2025 MCC WOMENS Invitational Standard Training Games March 29-30 at Starmall Edsa Shaw, Mandaluyong City
         </PanelHeader>
         <PanelBody>
           <ol>
             <li>
-              <strong>Objective:</strong> to revive playing with more time to help players, especially those who are starting up, to practice and refine their
-              mental processes required during analysis, which lead to greater precision and speed in recognizing and providing solutions for certain positions
-              during competitions and to give better tournament experience.
+              <strong>Objective:</strong> to provide opportunities for untitled women chess players, especially those starting up, to practice and refine their mental processes required during analysis,
+              which lead to greater precision and speed in recognizing and providing solutions for certain positions during competitions.
             </li>
             <br />
             <li>
@@ -32,7 +31,7 @@ function WomensDetails() {
                     <table className='table mb-0'>
                       <tbody>
                         <tr>
-                          <td rowSpan={4}>February 22 (Sat)</td>
+                          <td rowSpan={4}>March 29 (Sat)</td>
                           <td>10:15am</td>
                           <td>Round 1</td>
                         </tr>
@@ -50,7 +49,7 @@ function WomensDetails() {
                         </tr>
                         <br />
                         <tr>
-                          <td rowSpan={5}>February 23 (Sun)</td>
+                          <td rowSpan={5}>March 30 (Sun)</td>
                           <td>10:15am</td>
                           <td>Round 5</td>
                         </tr>
@@ -81,13 +80,11 @@ function WomensDetails() {
               <strong>Tournament Format</strong>
               <ol type='a'>
                 <li>
-                  It is a non-rated event and open to all untitled players and invited masters, regardless of ages and sexes. 
+                  It is a non-rated event and open to all untitled women players regardless of ages.
                 </li>
                 <li>
-                  Participants must be of good standing with MCC.
-                </li>
-                <li>
-                  The seven-round Swiss System shall be applied with time control of 40 minutes and three (3) seconds increment. Defaulting time is 30 minutes after the arbiter announces the start of the games.
+                  The seven-round Swiss System shall be applied with time control of 40 minutes and five (5) seconds increment.
+                  Defaulting time is 30 minutes after the arbiter announces the start of the games.
                 </li>
                 <li>
                   The FIDE Laws of Chess and the updated FIDE Laws of Chess approved on July 08/2022 which took effect last Jan. 01, 2023 shall be applied and the MCC rules and regulations shall be enforced.
@@ -112,11 +109,9 @@ function WomensDetails() {
             </li>
             <br />
             <li>
-              Registration is done thru online only. Deadline is set on February 19. Download the registration form at MCC website mccchess.com.
-              (If it failed to open, refresh it by key in Ctrl F5). Entry fees: P300 for currently enrolled on the Milo Checkmate program and invited masters.
-              P350 for others. Can pay thru gcash 0922-822-6319 or BDO acct# 001480-1353-70 both under Milagros Emperado.
-              Proof of payment can be submitted thru our messenger, viber or fb: milo checkmate chess clinics and sports academy.
-              Gcash reference number, can be sent thru text at 0922-822-6319. Your payment will be acknowledged accordingly. No proof, No play.
+              Registration is done thru online only. Deadline is set on March 25. Download the registration form at MCC website mccchess.com.
+              (If it failed to open, press Ctrl F5 to refresh it). Entry fee: P350. Can pay thru gcash 0922-822-6319 or BDO acct# 001480-1353-70 both under Milagros Emperado.
+              Proof of payment can be submitted thru our messenger, viber or fb: milo checkmate chess clinics and sports academy. Your payment will be acknowledged accordingly. No proof, No play.
             </li>
             <br />
             <li>
@@ -138,7 +133,7 @@ function WomensDetails() {
               are numbered according to the “designated board numbers”. Players having the same designated board number, as indicated in the pairing round involved, take the responsibilities in keeping the safety of the clock and the set of chess pieces.
             </li>
             <br />
-            <li>Recording of moves is mandatory until the last second. Score sheets must reflect properly the result of the game.</li>
+            <li>Recording of moves is mandatory until the last second. Score sheets must be readable and reflect properly the result of the game.</li>
             <br />
             <li>Rearrange the pieces before leaving your board. No analysis of games is permitted within the playing area.</li>
             <br />
@@ -185,7 +180,7 @@ function WomensDetails() {
                         <tr>
                           <td>Champion</td>
                           <td>P 5,000.00</td>
-                          <td>+ Trophy + Gold Medal</td>
+                          <td>+ Gold Medal</td>
                         </tr>
                         <tr>
                           <td>Second</td>
@@ -218,12 +213,9 @@ function WomensDetails() {
                 </div>
               </div>
               <br />
-              <div>
-                Top Category Performers P750 ea. + Gold Medal (5 entries are required/category)
-              </div>
-              <div>Seniors (60 yr old & above); Adults (40-59 yr old); Provisional Adulthood (21-39 yr old);</div>
-              <div>Juniors - male/female (20 yr old & below); Kiddies (9-12 yr old) and Kiddies (8 yr old & below)</div>
             </li>
+            <br />
+            <li>The medals are courtesy of our supporting Milo, the No.1 energy drink in the country.</li>
             <br />
             <li>Wear proper attire. No revealing attire please.</li>
             <br />
