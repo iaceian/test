@@ -14,14 +14,14 @@ function Leg1Details() {
       <h1 className='page-header'>1st Leg Details</h1>
       <Panel>
         <PanelHeader>
-          1st Leg mCC invitational STANDARD Training games (Feb. 10-11, 2024 at 2/F, Starmall Edsa Shaw, Mandaluyong City)
+        1st leg 2025 MCC Invitational Standard Training Games February 22-23 at Starmall Edsa Shaw, Mandaluyong City
         </PanelHeader>
         <PanelBody>
           <ol>
             <li>
               <strong>Objective:</strong> to revive playing with more time to help players, especially those who are starting up, to practice and refine their
               mental processes required during analysis, which lead to greater precision and speed in recognizing and providing solutions for certain positions
-              during competitions.
+              during competitions and to give better tournament experience.
             </li>
             <br />
             <li>
@@ -32,8 +32,8 @@ function Leg1Details() {
                     <table className='table mb-0'>
                       <tbody>
                         <tr>
-                          <td rowSpan={4}>Feb. 10 (Sat)</td>
-                          <td>10:10am</td>
+                          <td rowSpan={4}>February 22 (Sat)</td>
+                          <td>10:15am</td>
                           <td>Round 1</td>
                         </tr>
                         <tr>
@@ -50,8 +50,8 @@ function Leg1Details() {
                         </tr>
                         <br />
                         <tr>
-                          <td rowSpan={5}>Feb. 11 (Sun)</td>
-                          <td>10:10am</td>
+                          <td rowSpan={5}>February 23 (Sun)</td>
+                          <td>10:15am</td>
                           <td>Round 5</td>
                         </tr>
                         <tr>
@@ -63,11 +63,11 @@ function Leg1Details() {
                           <td>Round 7</td>
                         </tr>
                         <tr>
-                          <td>04:45pm</td>
+                          <td>05:00pm</td>
                           <td>Awarding</td>
                         </tr>
                         <tr>
-                          <td>05:45pm</td>
+                          <td>06:15pm</td>
                           <td>Photo session of the winners</td>
                         </tr>
                       </tbody>
@@ -81,12 +81,16 @@ function Leg1Details() {
               <strong>Tournament Format</strong>
               <ol type='a'>
                 <li>
-                  It is a non-rated event and open to all untitled players and invited masters, regardless of ages and sexes. Participants must be of good
-                  standing with MCC.
+                  It is a non-rated event and open to all untitled players and invited masters, regardless of ages and sexes. 
                 </li>
-                <li>The seven-round Swiss System shall be applied with time control of 40 minutes and two (2) second increment.</li>
                 <li>
-                  The FIDE Laws of Chess shall apply and the MCC rules and regulations shall be enforced.
+                  Participants must be of good standing with MCC.
+                </li>
+                <li>
+                  The seven-round Swiss System shall be applied with time control of 40 minutes and three (3) seconds increment. Defaulting time is 30 minutes after the arbiter announces the start of the games.
+                </li>
+                <li>
+                  The FIDE Laws of Chess and the updated FIDE Laws of Chess approved on July 08/2022 which took effect last Jan. 01, 2023 shall be applied and the MCC rules and regulations shall be enforced.
                 </li>
               </ol>
             </li>
@@ -108,21 +112,11 @@ function Leg1Details() {
             </li>
             <br />
             <li>
-              <strong>Registration is online. No onsite registration will be accommodated. Deadline is set on Feb. 07.</strong>
-              <ol type='a'>
-                <li>The registration form can be downloaded at our website mccchess.com</li>
-                <li>Can register thru the use of messenger, viber or fb: milo checkmate chess clinics and sports academy.</li>
-                <li>
-                  Entry fees: P200 for currently enrolled Milo Checkmate program and masters; P300 for former Milo Checkmate studes; and P350 for others. Can
-                  pay thru gcash 0922-822-6319 or BDO acct# 001480-1353-70 both under Milagros Emperado.
-                </li>
-                <li>
-                  Copy of payment receipt can be emailed at mccchess@yahoo.com or may send thru our messenger, viber or fb:
-                  milo checkmate chess clinics and sports academy. When paying thru gcash, please indicate the name of participant
-                  thru messages. Your registration is confirmed once you receive an acknowledgement thru text or messages re payment
-                  made for your entry.
-                </li>
-              </ol>
+              Registration is done thru online only. Deadline is set on February 19. Download the registration form at MCC website mccchess.com.
+              (If it failed to open, refresh it by key in Ctrl F5). Entry fees: P300 for currently enrolled on the Milo Checkmate program and invited masters.
+              P350 for others. Can pay thru gcash 0922-822-6319 or BDO acct# 001480-1353-70 both under Milagros Emperado.
+              Proof of payment can be submitted thru our messenger, viber or fb: milo checkmate chess clinics and sports academy.
+              Gcash reference number, can be sent thru text at 0922-822-6319. Your payment will be acknowledged accordingly. No proof, No play.
             </li>
             <br />
             <li>
@@ -141,18 +135,12 @@ function Leg1Details() {
             <br />
             <li>
               <strong>CHESS CLOCKS AND MCC CHESS SETS </strong>
-              are numbered according to the
-              <p style={{ textDecorationLine: 'underline' }}>
-                “designated board numbers”. Players having the same designated board number, as indicated in the pairing round involved, take the
-                responsibilities in keeping the safety of the clock and the set of chess pieces.
-              </p>
+              are numbered according to the “designated board numbers”. Players having the same designated board number, as indicated in the pairing round involved, take the responsibilities in keeping the safety of the clock and the set of chess pieces.
             </li>
             <br />
             <li>Recording of moves is mandatory until the last second. Score sheets must reflect properly the result of the game.</li>
             <br />
-            <li>Rearrange the pieces before leaving your board.</li>
-            <br />
-            <li>No analysis of games is permitted within the playing area.</li>
+            <li>Rearrange the pieces before leaving your board. No analysis of games is permitted within the playing area.</li>
             <br />
             <li>
               <strong>Corresponding Penalty for the following offenses, such as:</strong>
@@ -160,7 +148,10 @@ function Leg1Details() {
                 <li>Having cellphone that is switch ON;</li>
                 <li>
                   Use of cellphone inside or outside the tournament area while his/her game is in progress,
-                  <p className='text-danger'>The penalty for One Offense is forfeiture of the offending player’s game</p>
+                </li>
+                <li>
+                  Violation of the TOUCH-MOVE RULE.
+                  <p className='text-danger'>THE PENALTY for One Offense is forfeiture of the offending player’s game</p>
                 </li>
                 <li>Exposing or moving his/her King to check;</li>
                 <li>Capturing the King;</li>
@@ -179,7 +170,7 @@ function Leg1Details() {
                 </li>
                 <li>
                   Failing to arrange nor return to its original square displaced piece/s before pressing his/her clock; and
-                  <p className='text-danger'>The penalty for Two Offenses is forfeiture of the offending player’s game</p>
+                  <p className='text-danger'>THE PENALTY for TWO Offenses is forfeiture of the offending player’s game</p>
                 </li>
               </ol>
             </li>
@@ -193,53 +184,46 @@ function Leg1Details() {
                       <tbody>
                         <tr>
                           <td>Champion</td>
-                          <td>P 7,000.00</td>
-                          <td>+ gold medal</td>
+                          <td>P 5,000.00</td>
+                          <td>+ Trophy + Gold Medal</td>
                         </tr>
                         <tr>
                           <td>Second</td>
                           <td>P 3,000.00</td>
-                          <td>+ silver medal</td>
+                          <td>+ Silver Medal</td>
                         </tr>
                         <tr>
                           <td>Third</td>
                           <td>P 2,000.00</td>
-                          <td>+ bronze medal</td>
+                          <td>+ Bronze Medal</td>
                         </tr>
                         <tr>
                           <td>Fourth</td>
                           <td>P 1,500.00</td>
-                          <td>+ bronze medal</td>
+                          <td>+ Bronze Medal</td>
                         </tr>
                         <tr>
                           <td>Fifth</td>
-                          <td>P 1,000.00</td>
-                          <td>+ bronze medal</td>
+                          <td>P 1,200.00</td>
+                          <td>+ Bronze Medal</td>
                         </tr>
                         <tr>
                           <td>6th – 10th</td>
-                          <td>P 500.00 ea.</td>
-                          <td>+ bronze medal ea.</td>
-                        </tr>
-                        <tr>
-                          <td>Top Category Performers</td>
-                          <td>P750 ea.</td>
-                          <td>(five entries are required/category)</td>
-                        </tr>
-                        <tr>
-                          <td>Seniors: 60 years old and above</td>
-                          <td>Adult (40–59-year-old)</td>
-                          <td>Provisional Adult (21-39 years old)</td>
-                          <td>Juniors (male/female – 20-year-old and below)</td>
-                          <td>and Kiddies -12 & below</td>
+                          <td>P 1000.00 ea.</td>
+                          <td>+ Bronze Medal ea.</td>
                         </tr>
                       </tbody>
                     </table>
                   </div>
                 </div>
               </div>
+              <br />
+              <div>
+                Top Category Performers P750 ea. + Gold Medal (5 entries are required/category)
+              </div>
+              <div>Seniors (60 yr old & above); Adults (40-59 yr old); Provisional Adulthood (21-39 yr old);</div>
+              <div>Juniors - male/female (20 yr old & below); Kiddies (9-12 yr old) and Kiddies (8 yr old & below)</div>
             </li>
-            <p className='text-danger'>Give-aways await the regular participants.</p>
             <br />
             <li>Wear proper attire. No revealing attire please.</li>
             <br />
