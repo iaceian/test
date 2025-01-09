@@ -7,19 +7,19 @@ export const BoxD = () => {
   return (
     <Panel>
       <PanelHeader className='bg-green-700 text-white'>
-        D. Online 1-on-1/ group class via Zoom (depends on the available time slots and levels)
+        D. Online 1-on-1/ group class via Zoom
       </PanelHeader>
       <PanelBody>
         <div className='table-responsive'>
           <table className='table mb-0'>
             <tbody>
               <tr>
-                <td>one-on-one</td>
-                <td>Tues and Fri</td>
+                <td>One-on-one</td>
+                <td>Mon, Wed, Sat & Sun.</td>
               </tr>
               <tr>
                 <td>group class of 4 pax</td>
-                <td>Wed and Sunday</td>
+                <td>Wed, Sat & Sundays</td>
               </tr>
             </tbody>
           </table>

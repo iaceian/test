@@ -7,21 +7,21 @@ export const BoxC = () => {
   return (
     <Panel>
       <PanelHeader className='bg-yellow-700 text-white'>
-        C. Provincial Summer Clinics/ Week-ends Clinics
+        C. Provincial Classes with Tournament
       </PanelHeader>
       <PanelBody>
         <div className='table-responsive'>
           <table className='table mb-0'>
             <tbody>
               <tr>
-                <td>July 24,25 & 26</td>
-                <td>Victory Town Center Lemery</td>
-                <td>Wed, Thurs & Fri</td>
+                <td>Apr. 12-13 Mindoro</td>
+                <td>June 10-12 CDO</td>
+                <td>July 19 - T, F or S</td>
               </tr>
               <tr>
-                <td>Oct. 05 - 06</td>
-                <td>(to be announced later)</td>
-                <td>Sat & Sun</td>
+                <td>Apr. 14-15 Tanza, Cavite</td>
+                <td>Dec. 06-07 Nasugbu, Batangas</td>
+                <td>Sept. 3 - T, F or S</td>
               </tr>
             </tbody>
           </table>

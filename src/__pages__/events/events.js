@@ -12,7 +12,7 @@ function Events() {
       <ol className='breadcrumb float-xl-end'>
         <li className='breadcrumb-item active'>Events</li>
       </ol>
-      <h1 className='page-header'>2024 Schedule for Milo Checkmate Year-round Program (F2F/Online) and MCC Invitational Standard Training Games</h1>
+      <h1 className='page-header'>2025 Schedule for Milo Checkmate Year-round Program (F2F/Online) and MCC Invitational Standard Training Games</h1>
       <BoxA />
       <BoxB />
       <BoxC />
