@@ -24,19 +24,18 @@ export const BoxG = () => {
               <tr>
                 <td>
                   <button type='button' className='btn btn-outline-info me-1 mb-1'>
+                    <Link to='/events/pwds-seniors-details'>Details</Link>
+                  </button>
+                </td>
+                <td>
+                  <button type='button' className='btn btn-outline-info me-1 mb-1'>
                     <Link to='/events/leg1-details'>Details</Link>
                   </button>
                   <StandardRegistrationForm />
                 </td>
-                <td></td>
                 <td>
                   <button type='button' className='btn btn-outline-info me-1 mb-1'>
-                    <Link to='/events/leg3-details'>Details</Link>
-                  </button>
-                </td>
-                <td>
-                  <button type='button' className='btn btn-outline-info me-1 mb-1'>
-                    <Link to='/events/leg4-details'>Details</Link>
+                    <Link to='/events/womens-details'>Details</Link>
                   </button>
                 </td>
               </tr>

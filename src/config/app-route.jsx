@@ -13,6 +13,8 @@ import Leg3Details from '../__pages__/events/leg3-details/leg3-details.js';
 import Leg4Details from '../__pages__/events/leg4-details/leg4-details.js';
 import Leg5Details from '../__pages__/events/leg5-details/leg5-details.js';
 import PamaskongHandogDetails from '../__pages__/events/pamaskong-handog-details/pamaskong-handog-details.js';
+import PwdsSeniorsDetails from '../__pages__/events/pwds-seniors-details/pwds-seniors-details.js';
+import WomensDetails from './../__pages__/events/womens-details/womens-details';
 import Tournaments from '../__pages__/tournaments/tournaments.js';
 import Tournaments2 from '../__pages__/tournaments/tournaments2.js';
 import ScoreSheet from '../__pages__/score-sheet/score-sheet.js';
@@ -59,6 +61,14 @@ const AppRoute = [
         {
             path: 'events/pamaskong-handog-details',
             element: <PamaskongHandogDetails />
+        },
+        {
+            path: 'events/pwds-seniors-details',
+            element: <PwdsSeniorsDetails />
+        },
+        {
+            path: 'events/womens-details',
+            element: <WomensDetails />
         },
         {
             path: 'checkmate',
