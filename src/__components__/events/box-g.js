@@ -38,6 +38,12 @@ export const BoxG = () => {
                     <Link to='/events/womens-details'>Details</Link>
                   </button>
                 </td>
+                <td>
+                  <button type='button' className='btn btn-outline-info me-1 mb-1'>
+                    <Link to='/events/leg2-details'>Details</Link>
+                  </button>
+                  <StandardRegistrationForm />
+                </td>
               </tr>
               <tr>
               </tr>
