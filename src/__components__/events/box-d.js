@@ -1,7 +1,7 @@
 import React from 'react'
 import { Panel, PanelBody, PanelFooter, PanelHeader } from '../../components/panel/panel.jsx'
-import { PreEnrollmentForm } from '../download/pre-enrollment-form.js'
 import { Details } from '../redirect/details.js'
+import { OnlineRegistrationForm } from './../download/online-registration-form';
 
 export const BoxD = () => {
   return (
@@ -26,7 +26,7 @@ export const BoxD = () => {
         </div>
       </PanelBody>
       <PanelFooter>
-        <PreEnrollmentForm />
+        <OnlineRegistrationForm />
         <Details />
       </PanelFooter>
     </Panel>

@@ -18,7 +18,7 @@ export const BoxG = () => {
                 <td>WOMENS Mar. 29 & 30</td>
                 <td>May 31 - June 01 2nd leg</td>
                 <td>Aug. 16-17 FIDE-Rated</td>
-                <td>Oct. 11-12 4th leg</td>
+                <td>Oct. 11-12 Tournament</td>
                 <td>Dec. 20-21 MCC Pamasko Handog</td>
               </tr>
               <tr>
@@ -43,6 +43,12 @@ export const BoxG = () => {
                     <Link to='/events/leg2-details'>Details</Link>
                   </button>
                   <StandardRegistrationForm />
+                </td>
+                <td></td>
+                <td>
+                  <button type='button' className='btn btn-outline-info me-1 mb-1'>
+                    <Link to='/events/leg1-details'>Details</Link>
+                  </button>
                 </td>
               </tr>
               <tr>

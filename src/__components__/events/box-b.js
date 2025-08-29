@@ -67,7 +67,7 @@ export const BoxB = () => {
               </tr>
               <tr>
                 <td>Batch 7</td>
-                <td>Sept.6, 13, 20, 27, Oct.4 & 5</td>
+                <td>Sept.7, 14, 21, 28, Oct.5 & 12</td>
                 <td>Sucat, Parañaque City</td>
                 <td>09:00-11:15am</td>
                 <td>MCC Hq, Las Piñas City</td>
