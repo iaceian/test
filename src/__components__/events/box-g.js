@@ -50,6 +50,11 @@ export const BoxG = () => {
                     <Link to='/events/leg1-details'>Details</Link>
                   </button>
                 </td>
+                <td>
+                  <button type='button' className='btn btn-outline-info me-1 mb-1'>
+                    <Link to='/events/pamaskong-handog-details'>Details</Link>
+                  </button>
+                </td>
               </tr>
               <tr>
               </tr>
