@@ -6,54 +6,36 @@ export const BoxG = () => {
   return (
     <Panel>
       <PanelHeader className='bg-teal-700 text-white'>
-        2025 MCC Invitational Standard Training Games at Starmall Edsa Shaw, Mandaluyong 10am-06:30pm
+        2026 MCC Fide-rated Standard events and Invitational Standard Training Games at Starmall Edsa Shaw, Mandaluyong 10am-07:30pm
       </PanelHeader>
       <PanelBody>
         <div className='table-responsive'>
           <table className='table mb-0'>
             <tbody>
               <tr>
-                <td>PWDs Jan.25 & 26</td>
-                <td>Feb. 22-23 1st leg</td>
-                <td>WOMENS Mar. 29 & 30</td>
-                <td>May 31 - June 01 2nd leg</td>
-                <td>Aug. 16-17 FIDE-Rated</td>
-                <td>Oct. 11-12 Tournament</td>
-                <td>Dec. 20-21 MCC Pamasko Handog</td>
+                <td>Feb. 21-22 1st MCC Fide-rated Standard 1800 below Tournament</td>
+                <td>April 11-12 2nd leg MCC Fide-rated Standard 1800 below Tournament</td>
+                <td>May 16-17 (3rd leg); Aug. 15-16 (4th leg) </td>
+                <td>Oct. 17-18 (5th leg) MCC Standard 2000 below Tournament</td>
+                <td>Dec. 19-20 MCC Pamasko Handog Invitational Standard Training Games</td>
               </tr>
               <tr>
                 <td>
                   <button type='button' className='btn btn-outline-info me-1 mb-1'>
-                    <Link to='/events/pwds-seniors-details'>Details</Link>
-                  </button>
-                </td>
-                <td>
-                  <button type='button' className='btn btn-outline-info me-1 mb-1'>
-                    <Link to='/events/leg1-details'>Details</Link>
-                  </button>
-                  <StandardRegistrationForm />
-                </td>
-                <td>
-                  <button type='button' className='btn btn-outline-info me-1 mb-1'>
-                    <Link to='/events/womens-details'>Details</Link>
-                  </button>
-                </td>
-                <td>
-                  <button type='button' className='btn btn-outline-info me-1 mb-1'>
-                    <Link to='/events/leg2-details'>Details</Link>
-                  </button>
-                  <StandardRegistrationForm />
-                </td>
-                <td></td>
-                <td>
-                  <button type='button' className='btn btn-outline-info me-1 mb-1'>
                     <Link to='/events/leg1-details'>Details</Link>
                   </button>
                 </td>
                 <td>
-                  <button type='button' className='btn btn-outline-info me-1 mb-1'>
-                    <Link to='/events/pamaskong-handog-details'>Details</Link>
-                  </button>
+                  <StandardRegistrationForm />
+                </td>
+                <td>
+                  <StandardRegistrationForm />
+                </td>
+                <td>
+                  <StandardRegistrationForm />
+                </td>
+                <td>
+                  <StandardRegistrationForm />
                 </td>
               </tr>
               <tr>

@@ -15,11 +15,7 @@ export const BoxD = () => {
             <tbody>
               <tr>
                 <td>One-on-one</td>
-                <td>Mon, Wed, Sat & Sun.</td>
-              </tr>
-              <tr>
-                <td>group class of 4 pax</td>
-                <td>Wed, Sat & Sundays</td>
+                <td>Wed       5:00-6:00pm and 6:30-7:30pm</td>
               </tr>
             </tbody>
           </table>

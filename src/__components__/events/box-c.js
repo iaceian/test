@@ -14,14 +14,15 @@ export const BoxC = () => {
           <table className='table mb-0'>
             <tbody>
               <tr>
-                <td>Apr. 12-13 Mindoro</td>
-                <td>June 10-12 CDO</td>
-                <td>July 19 - T, F or S</td>
+                <td>May 09-10 Calapan, Mindoro</td>
+                <td>June 06 & 07 Olongapo</td>
+                <td>July 25 & 26 CDO</td>
+                <td>reserved dates Dec. 12 & 13</td>
               </tr>
               <tr>
-                <td>Apr. 14-15 Tanza, Cavite</td>
-                <td>Dec. 06-07 Nasugbu, Batangas</td>
-                <td>Sept. 3 - T, F or S</td>
+                <td></td>
+                <td>June 12 & 13 Cavite</td>
+                <td>Sept. 12 & 13 Iloilo</td>
               </tr>
             </tbody>
           </table>

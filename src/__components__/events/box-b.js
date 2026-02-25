@@ -6,36 +6,36 @@ import { Details } from '../redirect/details.js'
 export const BoxB = () => {
   return (
     <Panel>
-      <PanelHeader className='bg-orange-700 text-white'>B. Sundays classes Face-to-Face</PanelHeader>
+      <PanelHeader className='bg-orange-700 text-white'>B. Sundays classes</PanelHeader>
       <PanelBody>
         <div className='table-responsive'>
           <table className='table mb-0'>
             <tbody>
               <tr>
                 <td>Batch 1</td>
-                <td>Jan.12, 19, 26, Feb.02, 09 & 16 </td>
+                <td>Jan. 11, 18, 25, Feb. 01, 08 & 15</td>
                 <td>Sucat, Parañaque City</td>
                 <td>09:00-11:15am</td>
-                <td>MCC Hq, Las Piñas City</td>
-                <td>02:00-04:15pm</td>
+                <td>Las Piñas/Manila</td>
+                <td>02:30-4:30pm</td>
               </tr>
               <tr>
                 <td>Batch 2</td>
-                <td>Mar.02, 09, 16, 23, Apr.6 & 13</td>
+                <td>Feb. 22, Mar. 01, 08, 15, 22 & 29</td>
                 <td>Sucat, Parañaque City</td>
                 <td>09:00-11:15am</td>
-                <td>MCC Hq, Las Piñas City</td>
-                <td>02:00-04:15pm</td>
+                <td>Las Piñas/Manila</td>
+                <td>02:30-4:30pm</td>
               </tr>
               <tr>
                 <td colSpan={6} className='fw-bolder'>Summer Classes 1</td>
               </tr>
               <tr>
                 <td>Batch 3 (Thurs & Sun)</td>
-                <td>Apr.24, 27, May 1, 4, 8 & 11</td>
+                <td>Apr. 16, 19, 23, 26, 30 & May 2</td>
                 <td>Sucat, Parañaque City</td>
                 <td>09:00-11:15am</td>
-                <td>Alabang, Muntinlupa</td>
+                <td>Manila</td>
                 <td>02:30-4:30pm</td>
               </tr>
               <tr>
@@ -43,43 +43,43 @@ export const BoxB = () => {
               </tr>
               <tr>
                 <td>Batch 4 (Thurs & Sun)</td>
-                <td>May 15, 18, 22, 25, 29 & June 08</td>
+                <td>May 14, 17, 21, 24, 28 & 30</td>
                 <td>Sucat, Parañaque City</td>
                 <td>09:00-11:15am</td>
-                <td>Alabang, Muntinlupa</td>
+                <td>Manila</td>
                 <td>02:30-4:30pm</td>
               </tr>
               <tr>
-                <td>Batch 5 (Sun & Thu)</td>
-                <td>June 15, 22, 29, July 06, 13 & 20</td>
+                <td>Batch 5</td>
+                <td>June 14, 21, 28, July 05, 12 & 19</td>
                 <td>Sucat, Parañaque City</td>
                 <td>09:00-11:15am</td>
-                <td>MCC Hq, Las Piñas City</td>
-                <td>02:00-04:15pm</td>
+                <td>Las Piñas/Manila</td>
+                <td>02:30-4:30pm</td>
               </tr>
               <tr>
                 <td>Batch 6</td>
-                <td>July 27, Aug.3, 10, 24, 31 & Sept.7</td>
+                <td>July 26, Aug. 2, 09, 23, 30 & Sept. 06</td>
                 <td>Sucat, Parañaque City</td>
                 <td>09:00-11:15am</td>
-                <td>MCC Hq, Las Piñas City</td>
-                <td>02:00-04:15pm</td>
+                <td>Las Piñas/Manila</td>
+                <td>02:30-4:30pm</td>
               </tr>
               <tr>
                 <td>Batch 7</td>
-                <td>Sept.7, 14, 21, 28, Oct.5 & 12</td>
+                <td>Sept. 20, 27, Oct. 04, 11, 18 & 25</td>
                 <td>Sucat, Parañaque City</td>
                 <td>09:00-11:15am</td>
-                <td>MCC Hq, Las Piñas City</td>
-                <td>02:00-04:15pm</td>
+                <td>Las Piñas/Manila</td>
+                <td>02:30-4:30pm</td>
               </tr>
               <tr>
                 <td>Batch 8</td>
-                <td>Oct.19, 26, Nov.9, 16, 23 & 30</td>
+                <td>Nov. 8, 15, 22, 29, Dec. 06 & 13</td>
                 <td>Sucat, Parañaque City</td>
                 <td>09:00-11:15am</td>
-                <td>MCC Hq, Las Piñas City</td>
-                <td>02:00-04:15pm</td>
+                <td>Las Piñas/Manila</td>
+                <td>02:30-4:30pm</td>
               </tr>
             </tbody>
           </table>
