@@ -1,49 +1,29 @@
-import { Link } from 'react-router-dom'
-import { Panel, PanelBody, PanelHeader } from '../../components/panel/panel'
-import { StandardRegistrationForm } from '../download/standard-registration-form'
+import React from 'react'
+import { Panel, PanelBody, PanelFooter, PanelHeader } from '../../components/panel/panel.jsx'
+import { Details } from '../redirect/details.js'
+import { OnlineRegistrationForm } from './../download/online-registration-form';
 
 export const BoxG = () => {
   return (
     <Panel>
-      <PanelHeader className='bg-teal-700 text-white'>
-        2026 MCC Fide-rated Standard events and Invitational Standard Training Games at Starmall Edsa Shaw, Mandaluyong 10am-07:30pm
-      </PanelHeader>
+      <PanelHeader className='bg-purple-700 text-white'>D. Online 1-on-1/ group class via Zoom</PanelHeader>
       <PanelBody>
         <div className='table-responsive'>
           <table className='table mb-0'>
             <tbody>
               <tr>
-                <td>Feb. 21-22 1st MCC Fide-rated Standard 1800 below Tournament</td>
-                <td>April 11-12 2nd leg MCC Fide-rated Standard 1800 below Tournament</td>
-                <td>May 16-17 (3rd leg); Aug. 15-16 (4th leg) </td>
-                <td>Oct. 17-18 (5th leg) MCC Standard 2000 below Tournament</td>
-                <td>Dec. 19-20 MCC Pamasko Handog Invitational Standard Training Games</td>
-              </tr>
-              <tr>
-                <td>
-                  <button type='button' className='btn btn-outline-info me-1 mb-1'>
-                    <Link to='/events/leg1-details'>Details</Link>
-                  </button>
-                </td>
-                <td>
-                  <StandardRegistrationForm />
-                </td>
-                <td>
-                  <StandardRegistrationForm />
-                </td>
-                <td>
-                  <StandardRegistrationForm />
-                </td>
-                <td>
-                  <StandardRegistrationForm />
-                </td>
-              </tr>
-              <tr>
+                <td>One-on-one</td>
+                <td>Wed</td>
+                <td>5:00-6:00pm and 6:30-7:30pm</td>
               </tr>
             </tbody>
           </table>
         </div>
       </PanelBody>
+      <PanelFooter>
+        <OnlineRegistrationForm />
+        <Details />
+      </PanelFooter>
     </Panel>
   )
 }

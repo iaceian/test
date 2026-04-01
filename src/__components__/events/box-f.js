@@ -1,29 +1,33 @@
 import { Panel, PanelBody, PanelFooter, PanelHeader } from '../../components/panel/panel'
-import { OnlineRegistrationForm } from '../download/online-registration-form'
 import { Details } from '../redirect/details'
+import { PreEnrollmentForm } from './../download/pre-enrollment-form';
 
 export const BoxF = () => {
   return (
     <Panel>
-      <PanelHeader className='bg-cyan-700 text-white'>F. Online one-on-one classes via Zoom</PanelHeader>
+      <PanelHeader className='bg-indigo-700 text-white'>C. Provincial Classes with Tournament</PanelHeader>
       <PanelBody>
         <div className='table-responsive'>
           <table className='table mb-0'>
             <tbody>
               <tr>
-                <td>Tuesday</td>
-                <td>01:30 - 02:30pm</td>
+                <td>May 09-10 Calapan, Mindoro</td>
+                <td>June 06 & 07 Olongapo</td>
+                <td>July 25 & 26 CDO</td>
+                <td>reserved dates Dec.12 & 13</td>
               </tr>
               <tr>
-                <td>Wednesday</td>
-                <td>01:30 - 02:30pm</td>
+                <td></td>
+                <td>June 12 & 13 Cavite</td>
+                <td>Sept.12 & 13 Iloilo</td>
+                <td></td>
               </tr>
             </tbody>
           </table>
         </div>
       </PanelBody>
       <PanelFooter>
-        <OnlineRegistrationForm />
+        <PreEnrollmentForm />
         <Details />
       </PanelFooter>
     </Panel>

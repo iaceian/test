@@ -5,17 +5,46 @@ import { Details } from '../redirect/details'
 export const BoxE = () => {
   return (
     <Panel>
-      <PanelHeader className='bg-blue-700 text-white'>
-        E. PROVINCIAL F2F Summer Schedules and Venues - (10:00am-05:00pm with 1 hour lunchbreak ; Tournament is held on the last day)
-      </PanelHeader>
+      <PanelHeader className='bg-blue-700 text-white'>E. Sundays classes</PanelHeader>
       <PanelBody>
         <div className='table-responsive'>
           <table className='table mb-0'>
             <tbody>
               <tr>
-                <td>Fri-Sat-Sun</td>
-                <td>Nov. 24, 25 & 26</td>
-                <td>Balayan, Batangas</td>
+                <td>Batch 1</td>
+                <td>Jan. 11, 18, 25, Feb. 01, 08 & 15</td>
+                <td>Sucat, Parañaque City</td>
+                <td>09:00-11:15am</td>
+              </tr>
+              <tr>
+                <td>Batch 2</td>
+                <td>Feb. 22, Mar. 01, 08, 15, 22 & 29</td>
+                <td>Sucat, Parañaque City</td>
+                <td>09:00-11:15am</td>
+              </tr>
+              <tr>
+                <td>Batch 5</td>
+                <td>June 14, 21, 28, July 05, 12 & 19</td>
+                <td>Sucat, Parañaque City</td>
+                <td>09:00-11:15am</td>
+              </tr>
+              <tr>
+                <td>Batch 6</td>
+                <td>July 26, Aug. 2, 09, 23, 30 & Sept. 06</td>
+                <td>Sucat, Parañaque City</td>
+                <td>09:00-11:15am</td>
+              </tr>
+              <tr>
+                <td>Batch 7</td>
+                <td>Sept. 20, 27, Oct. 04, 11, 18 & 25</td>
+                <td>Sucat, Parañaque City</td>
+                <td>09:00-11:15am</td>
+              </tr>
+              <tr>
+                <td>Batch 8</td>
+                <td>Nov. 8, 15, 22, 29, Dec. 06 & 13</td>
+                <td>Sucat, Parañaque City</td>
+                <td>09:00-11:15am</td>
               </tr>
             </tbody>
           </table>
