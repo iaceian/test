@@ -32,7 +32,7 @@ export const BoxB = () => {
                 <td>Apr. 16, 19, 23, 26, 30 & May 2</td>
                 <td>Sucat, Parañaque City</td>
                 <td>09:00-11:15am</td>
-                <td>Bacoor near St. Dominic Medical Ctr</td>
+                <td>Starbucks, Robinson's Place Las Pinas</td>
                 <td>02:00-04:15pm</td>
               </tr>
             </tbody>
