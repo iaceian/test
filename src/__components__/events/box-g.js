@@ -14,7 +14,7 @@ export const BoxG = () => {
               <tr>
                 <td>One-on-one</td>
                 <td>Wed</td>
-                <td>5:00-6:00pm and 6:30-7:30pm</td>
+                <td>4:00-5:00pm and 5:30-6:30pm</td>
               </tr>
             </tbody>
           </table>

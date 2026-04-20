@@ -16,8 +16,8 @@ export const BoxB = () => {
                 <td>Apr. 14, 17, 21, 24, 28 & May 2</td>
                 <td>BGC, Taguig</td>
                 <td>09:00 - 11:00am</td>
-                <td>Starbucks, Aurora Ave., Quezon City</td>
-                <td>02:45-4:45pm</td>
+                <td></td>
+                <td></td>
               </tr>
               <tr>
                 <td>Batch 3 (Wed & Sat)</td>
@@ -32,14 +32,6 @@ export const BoxB = () => {
                 <td>Apr. 16, 19, 23, 26, 30 & May 2</td>
                 <td>Sucat, Parañaque City</td>
                 <td>09:00-11:15am</td>
-                <td>Starbucks SM Manila</td>
-                <td>08:30-11:30am</td>
-              </tr>
-              <tr>
-                <td>Batch 3 (Thurs & Sun)</td>
-                <td>Apr. 16, 19, 23, 26, 30 & May 2</td>
-                <td>MCC HQ, Las Piñas City</td>
-                <td>01:30-03:45pm</td>
                 <td>Bacoor near St. Dominic Medical Ctr</td>
                 <td>02:00-04:15pm</td>
               </tr>

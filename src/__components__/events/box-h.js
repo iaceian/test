@@ -14,8 +14,8 @@ export const BoxH = () => {
             <tbody>
               <tr>
                 <td>Feb. 21-22 1st MCC Fide-rated Standard 1800 below Tournament</td>
-                <td>April 11-12 2nd leg MCC Fide-rated Standard 1800 below Tournament</td>
-                <td>May 16-17 (3rd leg); Aug. 15-16 (4th leg) </td>
+                <td>April 11-12 1st leg MCC Standard 1800 below Training Games</td>
+                <td>May 16-17 (Fide-rated); Aug. 15-16 (4th leg) </td>
                 <td>Oct. 17-18 (5th leg) MCC Standard 2000 below Tournament</td>
                 <td>Dec. 19-20 MCC Pamasko Handog Invitational Standard Training Games</td>
               </tr>
