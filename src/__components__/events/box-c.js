@@ -32,7 +32,15 @@ export const BoxC = () => {
                 <td>May 10, 14, 21, 24, 28 & 30</td>
                 <td>Sucat, Parañaque City</td>
                 <td>09:00-11:15am</td>
-                <td>Starbucks, Robinson's Place Las Pinas</td>
+                <td>Bacoor near St. Dominic Medical Ctr</td>
+                <td>02:00-04:15pm</td>
+              </tr>
+              <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>MCC HQ, Ph5 Gatchalian Subd., 834 S.Marquez cor Villanueva St.</td>
                 <td>02:00-04:15pm</td>
               </tr>
             </tbody>

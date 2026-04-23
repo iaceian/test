@@ -13,8 +13,7 @@ export const BoxG = () => {
             <tbody>
               <tr>
                 <td>One-on-one</td>
-                <td>Wed</td>
-                <td>4:00-5:00pm and 5:30-6:30pm</td>
+                <td>Mon 4:00-5:00pm and 5:30-6:30pm</td>
               </tr>
             </tbody>
           </table>
