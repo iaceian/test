@@ -22,11 +22,16 @@ export const BoxH = () => {
               <tr>
                 <td>
                   <button type='button' className='btn btn-outline-info me-1 mb-1'>
+                    <Link to='../assets/doc/register/Fide-rated Standard 1800 Below Tournament Registration Form.doc' target='_blank'>Register</Link>
+                  </button>
+                  <button type='button' className='btn btn-outline-info me-1 mb-1'>
                     <Link to='/events/leg1-details'>Details</Link>
                   </button>
                 </td>
                 <td>
-                  <StandardRegistrationForm />
+                  <button type='button' className='btn btn-outline-info me-1 mb-1'>
+                    <Link to='../assets/doc/register/Fide-rated Standard 1800 Below Tournament Registration Form.doc' target='_blank'>Register</Link>
+                  </button>
                 </td>
                 <td>
                   <StandardRegistrationForm />
