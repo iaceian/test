@@ -18,47 +18,60 @@ function ClassDetails() {
           <div style={{ marginRight: '50px'}}>
             <ol>
               <li>
-                The program is designed to develop the chess talents of young children, aged 6 years old and above into masters’ strength level through formal and systematic method of teachings.
+                The program is designed to develop the chess talents of young children, aged 6 years old and above into masters’
+                strength level through formal and systematic method of teachings.
               </li>
               <br />
               <li>
-                The curriculum is patterned after the famous and former USSR chess development scheme. The courses are for beginners, intermediate, advance and master levels.
+                The curriculum is patterned after the famous and former USSR chess development scheme.
+                The courses are for beginners, intermediate, advance and master levels.
               </li>
               <br />
               <li>
-                Enrollees are assessed to determine their respective levels. The assessment is done through a test questionnaire which will be sent at your email add.
+                Enrollees are assessed to determine their respective levels. The assessment is done
+                through a test questionnaire which will be sent at your email add.
               </li>
               <br />
               <li>
-                The F2F program offers weekend classes (Saturdays or Sundays) during school days and twice a week during summer. Venues are located at Quezon City, Mandaluyong, Manila, Las Piñas and Parañaque.
+                The F2F program offers weekend classes (Saturdays or Sundays) during school days and twice a week during summer.
+                Venues are located at Quezon City, Mandaluyong, Manila, Las Piñas, BGC, Caloocan and Parañaque.
+              </li>
+              <li>
+                The coaching staff is headed by WNM Mila Emperado and composed of International Masters and well -trained candidate masters.
               </li>
               <br />
               <li>
-                The online program is done via zoom and held during Sundays and weekdays except Thursdays. The link is emailed at least three hours before the session starts.
+                The online program is done via zoom and held during weekdays Mondays and Tuesdays.
+                The link is emailed at least three hours before the session starts.
               </li>
               <br />
               <li>
-                Now on its 35th year of inception, the program has produced countless of titled players whom include the US-based grandmaster (GM) Wesley So, GM Mark Paragua, GM John Paul Gomez, GM Catalino Sadorra and GM Ronald Dableo,
+                Now on its 36th year of inception, the program has produced countless of titled players whom include the US-based grandmaster (GM) Wesley So,
+                GM Mark Paragua, GM John Paul Gomez, GM Catalino Sadorra and GM Ronald Dableo.
               </li>
               <br />
               <li>
-                Each batch of the Milo Checkmate F2F program consists of five sessions for the lessons and concludes with a final evaluation tournament. The lesson runs for 2 hrs. & 15min/session and 4 hours for the tournament.
+                Each batch of the Milo Checkmate F2F program consists of seven sessions spread in six days.
+                Five days for the lessons with practice games and one day for the tournament.
+                It concludes with a final evaluation tournament.
+                The lesson runs for 2 hrs. & 15min/session and 4 hours for the tournament.
               </li>
               <br />
               <li>
-                All enrollees (of same batch) from various venues and online program are assembled together during the final evaluation tournament and mandatory to participate. They compete according to their levels to evaluate their performance after having given them a series of lessons. Winners are awarded medals, courtesy of the supporting Milo, the No.1 energy drink in the country.
+                All enrollees (of same batch) from various venues and online program are assembled together during the final evaluation tournament and mandatory to participate.
+                They compete according to their levels to evaluate their performance after having given them a series of lessons. Winners are awarded medals,
+                courtesy of the supporting Milo, the No.1 energy drink in the country.
               </li>
               <br />
               <li>
-                The enrollment fee for F2F program is P6250/batch/child; P5200 for eight (1-on-1) online sessions and P4800 for eight sessions of group class of 4 pax. One hour/online session. Advance payment is required. Can pay thru gcash 0922-822-6319 or BDO account # 001480 1353 70 both under Milagros C. Emperado
+                The enrollment fee for F2F program is P6250/batch/child; P5600 for eight (1-on-1) online sessions.
+                Can pay onsite at the chosen venue or online. Can pay thru gcash 0922-822-6319 or BDO account # 001480 1353 70 both under Milagros C. Emperado.
+                Payment will be acknowledged accordingly.
               </li>
               <br />
               <li>
-                Receipt copy of payment can be emailed at mccchess@yahoo.com or send it thru our facebook fan page: milo checkmate chess clinics and sports academy or thru our messenger and viber. An acknowledgement for payment received will be forwarded thru messages.
-              </li>
-              <br />
-              <li>
-                F2F program’s enrollees are required to bring their own chess set, notebook and pen during the session. Wear or bring face mask. For online classes, the chess positions are shared on the screen.
+                F2F program’s enrollees are required to bring their own chess set, notebook and pen during the session. Wear or bring face mask.
+                For online classes, the chess positions are shared on the screen via zoom.
               </li>
               <br />
               <li>
