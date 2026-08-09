@@ -1,50 +1,28 @@
 import { Link } from 'react-router-dom'
 import { Panel, PanelBody, PanelHeader } from '../../components/panel/panel'
-import { StandardRegistrationForm } from '../download/standard-registration-form'
+import data from './box-h-data'
+
+const aaa = () => {
+    return data.lines.map(line => <tr><td>{line.buttons.map(button => <button type='button' className='btn btn-outline-info me-1 mb-1'><Link to={button.to} target='_blank'>{button.caption}</Link></button>)}</td><td>{line.caption}</td></tr>)
+}
 
 export const BoxH = () => {
   return (
     <Panel>
       <PanelHeader className='bg-teal-700 text-white'>
-        2026 MCC Fide-rated Standard events and Invitational Standard Training Games at Starmall Edsa Shaw, Mandaluyong 10am-07:30pm
+        2026 MCC Fide-rated Standard events and Invitational Standard Training Games at Starmall Edsa Shaw, Mandaluyong
       </PanelHeader>
       <PanelBody>
         <div className='table-responsive'>
           <table className='table mb-0'>
+            <thead>
+                <tr>
+                    <th style={{width: 200 + 'px'}}></th>
+                    <th></th>
+                </tr>
+            </thead>
             <tbody>
-              <tr>
-                <td>Feb. 21-22 1st MCC Fide-rated Standard 1800 below Tournament</td>
-                <td>April 11-12 1st leg MCC Standard 1800 below Training Games</td>
-                <td>May 16-17 (Fide-rated); Aug. 15-16 (4th leg) </td>
-                <td>Oct. 17-18 (5th leg) MCC Standard 2000 below Tournament</td>
-                <td>Dec. 19-20 MCC Pamasko Handog Invitational Standard Training Games</td>
-              </tr>
-              <tr>
-                <td>
-                  <button type='button' className='btn btn-outline-info me-1 mb-1'>
-                    <Link to='../assets/doc/register/Fide-rated Standard 1800 Below Tournament Registration Form.doc' target='_blank'>Register</Link>
-                  </button>
-                  <button type='button' className='btn btn-outline-info me-1 mb-1'>
-                    <Link to='/events/leg1-details'>Details</Link>
-                  </button>
-                </td>
-                <td>
-                  <StandardRegistrationForm />
-                </td>
-                <td>
-                  <button type='button' className='btn btn-outline-info me-1 mb-1'>
-                    <Link to='../assets/doc/register/Fide-rated Standard 1800 Below Tournament Registration Form.doc' target='_blank'>Register</Link>
-                  </button>
-                </td>
-                <td>
-                  <StandardRegistrationForm />
-                </td>
-                <td>
-                  <StandardRegistrationForm />
-                </td>
-              </tr>
-              <tr>
-              </tr>
+                {aaa()}
             </tbody>
           </table>
         </div>
