@@ -20,7 +20,8 @@ const data = {
         ]},
         { caption: "Oct. 17-18 (5th leg) MCC Standard 2000 below Tournament",
         buttons: [
-            { caption: "Register", to: "../assets/doc/register/StandardRegistrationForm.doc" }
+            { caption: "Register", to: "../assets/doc/register/StandardRegistrationForm.doc" },
+            { caption: "Details", to: "/events/leg2-details" }
         ]},
         { caption: "Dec. 19-20 MCC Pamasko Handog Invitational Standard Training Games",
         buttons: [

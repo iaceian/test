@@ -9,66 +9,49 @@ function Leg2Details() {
         <li className='breadcrumb-item'>
           <Link to='/events'>Events</Link>
         </li>
-        <li className='breadcrumb-item active'>2nd Leg Details</li>
+        <li className='breadcrumb-item active'>2rd Leg Details</li>
       </ol>
-      <h1 className='page-header'>2nd Leg Details</h1>
+      <h1 className='page-header'>2rd Leg Details</h1>
       <Panel>
         <PanelHeader>
-        2nd leg 2025 MCC Invitational Standard Training Games
-        May 31 - June 01, 10:00am - 06:00pm, at Starmall Edsa Shaw, Mandaluyong City
+          <div style={{ textAlign: 'center' }}>2nd leg MCC Invitational Standard Training Games</div>
+          <div style={{ textAlign: 'center' }}>October 17-18, 2026 from 10:10am- 07:30pm at Starmall Edsa Shaw, Mandaluyong City</div>
         </PanelHeader>
         <PanelBody>
+          <h4 style={{ textAlign: 'center' }}>Rules and Regulations</h4>
           <ol>
-            <li>
-            Objective: to continue reviving the use of more time when playing to help players, especially those who are starting up, to practice and refine their mental processes required during analysis,
-            which lead to greater precision and speed in recognizing and providing solutions for certain positions during competitions and to give better tournament experience.
-            </li>
+            <li>The event is Fide-rated and open to all unrated and rated players, regardless of ages and gender.</li>
+            <li>The starting rank of players shall be based on the latest FIDE Standard Rating List.</li>
+            <li>Recording of moves in Algebraic Notation is mandatory throughout the game.</li>
+            <li>No offer of draw before the Black’s 30th move.</li>
             <br />
             <li>
               <strong>Schedule</strong>
               <div className='row'>
                 <div className='col-xl-12'>
                   <div className='col-xl-5 col-md-6'>
-                    <table className='table mb-0'>
+                    <table className='table table-borderless mb-0'>
                       <tbody>
                         <tr>
-                          <td rowSpan={4}>May 31 (Sat)</td>
-                          <td>10:15am</td>
-                          <td>Round 1</td>
+                          <td>Oct. 17 (Sat)</td>
+                          <td>10:15am Rnd 1</td>
+                          <td>12:45pm Rnd 2</td>
+                          <td>03:15pm Rnd 3</td>
+                          <td>05:30pm Rnd 4</td>
                         </tr>
                         <tr>
-                          <td>12:30pm</td>
-                          <td>Round 2</td>
+                          <td>Oct. 18 (Sun)</td>
+                          <td>10:15am Rnd 5</td>
+                          <td>12:45pm Rnd 6</td>
+                          <td>03:15pm Rnd 7</td>
                         </tr>
                         <tr>
-                          <td>02:30pm</td>
-                          <td>Round 3</td>
-                        </tr>
-                        <tr>
-                          <td>04:30pm</td>
-                          <td>Round 4</td>
-                        </tr>
-                        <br />
-                        <tr>
-                          <td rowSpan={5}>June 01 (Sun)</td>
-                          <td>10:15am</td>
-                          <td>Round 5</td>
-                        </tr>
-                        <tr>
-                          <td>12:30pm</td>
-                          <td>Round 6</td>
-                        </tr>
-                        <tr>
-                          <td>02:30pm</td>
-                          <td>Round 7</td>
-                        </tr>
-                        <tr>
-                          <td>05:00pm</td>
                           <td>Awarding</td>
+                          <td>05:45pm</td>
                         </tr>
                         <tr>
-                          <td>06:15pm</td>
-                          <td>Photo session of the winners</td>
+                            <td colSpan={3}>Photo session of the winners & participants</td>
+                            <td>06:45pm</td>
                         </tr>
                       </tbody>
                     </table>
@@ -78,139 +61,132 @@ function Leg2Details() {
             </li>
             <br />
             <li>
-              <strong>Tournament Format</strong>
+                <strong>Registration</strong>
               <ol type='a'>
-                <li>It is a non-rated event and open to all untitled players and invited masters, regardless of ages and sexes.</li>
+                <li>Registration is done thru online only. Can download the registration form at mccchess.com.</li>
                 <li>Participants must be of good standing with MCC.</li>
-                <li>The seven-round Swiss System shall be applied with time control of 40 minutes and three (3) seconds increment.</li>
-                <li>Defaulting time is 30 minutes after the arbiter announces the start of the games.</li>
-                <li>
-                  The FIDE Laws of Chess and the updated FIDE Laws of Chess approved on July 08/2022 which took effect last Jan. 01, 2023
-                  shall be applied and the MCC rules and regulations shall be enforced.
-                </li>
+                <li>Entry fees are P400 for currently enrolled on the Milo Checkmate program and P500 for the others. Can pay thru gcash 0922-822-6319 or BDO acct# 001480-1353-70 both under account name Milagros Emperado.</li>
+                <li>The full details of entries - name, date of birth, screenshot copies for proof of payment and Fide-standard rating can be submitted thru viber, messenger, text, fb fan page: milo checkmate chess clinics and sports academy or email at mccchess@yahoo.com. Gcash reference number with date of payment, can be sent thru text at 0922-822-6319.</li>
               </ol>
+            </li>
+            <br />
+            <li>
+              <strong>Tournament Format</strong>
+              <br />
+              The tournament shall be played as a seven (7) - round Swiss System. The FIDE Laws of Chess shall apply and the MCC rules and regulations shall be enforced. The time control is thirty (30) minutes with thirty (30) second’s increment. Defaulting time is fifteen (15) minutes (Running Time) after the official start of the game.
             </li>
             <br />
             <li>
               <strong>Tie-Break System</strong>
               <br />
-              The order of the players that finish with the same number of points shall be determined by the application of the following tie-break procedures in sequence,
-              proceeding from (a) to (b) to (c) to (d) to (e) and to (f).
-              <br />
-              tie-break procedures in sequence, proceeding from (a) to (b) to (c) to (d) to (e) and to (f).
               <ol type='a'>
-                <li>Direct Encounter. Winner over the other.</li>
-                <li>Greater number of wins.</li>
+                <li>Direct Encounter</li>
                 <li>Buccholz</li>
                 <li>Buccholz Cut 1</li>
                 <li>Buccholz Cut 2</li>
                 <li>Sonnenborn Berger</li>
+                <li>Number of wins.</li>
               </ol>
             </li>
             <br />
             <li>
-              Registration is done thru online only. Deadline is set on May 25. Download the registration form at MCC website mccchess.com. May also submit their entries thru use of text, messenger or viber  indicating their full names, date of births and ratings if any. Entry fees: P300 for currently enrolled on the Milo Checkmate program and invited masters.  P350 for others. Can pay thru gcash 0922-822-6319 or BDO acct# 001480-1353-70 both under account name Milagros Emperado. Proof of payment can be submitted thru our messenger, viber or fb: milo checkmate chess clinics and sports academy. Gcash reference number, can be sent thru text at 0922-822-6319. Your payment will be acknowledged accordingly. No proof, No play.
+              <strong>Corresponding Penalty for the following offenses, such as:</strong>
+              <ol type='a'>
+                <li>ILLEGAL Moves such as:</li>
+                <ol>
+                    <li>wrong movement of piece;</li>
+                    <li>exposing the king to an attack</li>
+                    <li>King remaining under check</li>
+                    <li>capturing the opponent's king</li>
+                    <li>using two hands in making a move (castling, capturing and promotion)</li>
+                    <li>non-replacement of piece after pawn promotion</li>
+                    <li>pressing the clock before making a move</li>
+                    <div class="text-center col-xl-2">The Penalties are:</div>
+                    <div>1st Offense - plus 2 minutes to the opponent’s time</div>
+                    <div>2nd Offense - loss of the game</div>
+                </ol>
+                <br />
+                <li>Infringement made by a player such as:</li>
+                    <ol>
+                        <li>displacement of piece/s on the chess board</li>
+                        <li>use of use of force in pressing the clock</li>
+                        <li>improper clock handling</li>
+                        <li>non-recording of moves; and</li>
+                        <li>bullying or annoying or causing disturbing acts against his/her opponent by tapping the chess table or whistling</li>
+                        <div class="text-center col-xl-2">The Penalties are:</div>
+                        <div>1st Offense - oral warning</div>
+                        <div>2nd Offense - plus 2 minutes to the opponent’s time</div>
+                        <div>3rd Offense - forfeiture of the game</div>
+                    </ol>
+              </ol>
             </li>
             <br />
+            <li>The use of mobile phones or any electronic means of communication is not allowed during a game. A player who will violate the aforementioned rule shall lose his/her game by forfeiture.</li>
+            <br />
+            <li>Spectators: All non-players are prohibited from remaining in the playing area. Additionally, players are not allowed to analyze or stay in the area after their games.</li>
+            <br />
             <li>
-              <strong>Appeals Committee</strong>
+              <strong>Chief Arbiter and the Appeals Committee</strong>
               <br />
-              The Metropolitan Chess Center’ President, who is also acting as the Chief Arbiter, shall appoint the Chairman of Appeals.
-              The Appeals Committee shall consist of three members and two reserves representing five different cities.
+              The Metropolitan Chess Center’ President, who is also acting as the Chief Arbiter, shall appoint the Chairman of Appeals. The Appeals Committee shall consist of three members and two reserves representing five different cities.
             </li>
             <br />
             <li>
               <strong>Appeals</strong>
               <br />
-              A protest against a decision of an Arbiter must be submitted in writing to the Chief Arbiter within 15 minutes after the end of the relevant playing session. In submitting a protest,
-              a protest fee of P1,000.00 (One Thousand Pesos) shall be paid to the Appeals Committee which is non-refundable. The decision of the Appeals Committee shall be final and binding immediately.
+              A protest against a decision of an Arbiter must be submitted in writing to the Chief Arbiter   
+              within 15 minutes after the end of the relevant playing session. In submitting a protest, a protest fee of P2,000.00 (Two Thousand Pesos) shall be paid to the Appeals Committee which is non-refundable. The decision of the Appeals Committee shall be final and binding immediately.
             </li>
             <br />
             <li>
               <strong>CHESS CLOCKS AND MCC CHESS SETS </strong>
-              are numbered according to the “designated board numbers”. Players having the same designated board number, as indicated in the pairing round involved,
-              take the responsibilities in keeping the safety of the clock and the set of chess pieces.
-            </li>
-            <br />
-            <li>Recording of moves is mandatory until the last second. Score sheets must reflect properly the result of the game.</li>
-            <br />
-            <li>Rearrange the pieces before leaving your board. No analysis of games is permitted within the playing area.</li>
-            <br />
-            <li>
-              <strong>Corresponding Penalty for the following offenses, such as:</strong>
-              <ol type='a'>
-                <li>Having cellphone that is switch ON;</li>
-                <li>Use of cellphone inside or outside the tournament area while his/her game is in progress; and</li>
-                <li>Violation of the TOUCH-MOVE RULE.</li>
-                <li>
-                  Drawing of games in less than thirty (30) moves.
-                  <p className='text-danger'>THE PENALTY for One Offense is forfeiture of the offending player’s game</p>
-                </li>
-                <li>Exposing or moving his/her King to check;</li>
-                <li>Capturing the King;</li>
-                <li>
-                  Pressing the clock after promoting a pawn without physically changing it to another piece of higher value.
-                  (The promoted pawn must have been physically changed before pressing the clock);
-                </li>
-                <li>Using two hands in castling or in capturing an enemy piece and or in promoting a pawn;</li>
-                <li>Bullying the opponent with obvious ruddiness and ill-mannered or improper behavior for an athlete</li>
-                <li>Unnecessary use of force, like using the palm of your hand or pieces, in pressing the clock;</li>
-                <li>
-                  Disturbing opponent’s vision like having two hands hanging over the board as if in the act of moving a piece with one hand and pressing the
-                  clock with the other hand; and
-                </li>
-                <li>
-                  Failing to arrange nor return to its original square displaced piece/s before pressing his/her clock.
-                  <p className='text-danger'>The penalty for Two Offenses is forfeiture of the offending player’s game</p>
-                </li>
-              </ol>
+              are numbered according to the
+              <p>
+                “designated board numbers”. Players having the same designated board number, as indicated in the pairing round involved, take the
+                responsibilities in keeping the safety of the clock and the set of chess pieces.
+              </p>
             </li>
             <br />
             <li>
               <strong>Cash Prizes and Consolation Awards</strong>
               <div className='row'>
                 <div className='col-xl-12'>
-                  <div className='col-xl-10 col-md-6'>
+                  <div className='col-xl-6 col-md-6'>
                     <table className='table mb-0'>
                       <tbody>
                         <tr>
                           <td>Champion</td>
-                          <td>P 5,000.00</td>
-                          <td>+ Trophy + Gold Medal</td>
+                          <td>P 8,000.00 + Gold Medal</td>
                         </tr>
                         <tr>
                           <td>Second</td>
-                          <td>P 3,000.00</td>
-                          <td>+ Silver Medal</td>
+                          <td>P 4,000.00 + Silver Medal</td>
                         </tr>
                         <tr>
                           <td>Third</td>
-                          <td>P 2,000.00</td>
-                          <td>+ Bronze Medal</td>
+                          <td>P 2,500.00 + Bronze Medal</td>
                         </tr>
                         <tr>
                           <td>Fourth</td>
-                          <td>P 1,500.00</td>
-                          <td>+ Bronze Medal</td>
+                          <td>P 1,500.00 + Bronze Medal</td>
                         </tr>
                         <tr>
                           <td>Fifth</td>
-                          <td>P 1,200.00</td>
-                          <td>+ Bronze Medal</td>
+                          <td>P 1,500.00 + Bronze Medal</td>
                         </tr>
                         <tr>
                           <td>6th – 10th</td>
-                          <td>P 1,000.00</td>
-                          <td>+ Bronze Medal ea.</td>
+                          <td>P 1200.00 + Bronze Medal ea.</td>
                         </tr>
                       </tbody>
                     </table>
+                    <br />
+                    <div>Top Category Performers - P1000 + Gold Medal (5 entries are required/category)</div>
+                    <div>PWDs; Seniors (60 yr old & above); Adults (40-59 yr old); Provisional Adulthood (21-39 yr old)</div>
+                    <div> Juniors - male/female (20 yr old & below); Kiddies (9-12 yr old); Kiddies (8 yr old & below) & PWD.</div>
                   </div>
                 </div>
               </div>
-              <div>Top Category Performers P750 ea. + Gold Medal &emsp; (5 entries are required/category)</div>
-              <div>Seniors (60 yr old & above); Adults (40-59 yr old); Provisional Adulthood (21-39 yr old);</div>
-              <div>Juniors - male/female (20 yr old & below); Kiddies (9-12 yr old) and Kiddies (8 yr old & below)</div>
             </li>
             <br />
             <li>Wear proper attire. Casual wear with long pants for men. No revealing attire please.</li>
@@ -224,7 +200,7 @@ function Leg2Details() {
           </ol>
           <p>Prepared by:</p>
           <p>WNM Milagros C. Emperado</p>
-          <p>Tournament Director/Chief Arbiter</p>
+          <p>President- Metropolitan Chess Center & Organizer of Milo Checkmate Chess Clinics</p>
         </PanelBody>
       </Panel>
 
