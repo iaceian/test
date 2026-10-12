@@ -18,7 +18,7 @@ const data = {
             { caption: "Register", to: "../assets/doc/register/Fide-rated Standard 1800 Below Tournament Registration Form.doc" },
             { caption: "Details", to: "/events/leg3-details" }
         ]},
-        { caption: "Oct. 17-18 (5th leg) MCC Standard 2000 below Tournament",
+        { caption: "Oct. 17-18 (2nd leg) MCC Standard",
         buttons: [
             { caption: "Register", to: "../assets/doc/register/StandardRegistrationForm.doc" },
             { caption: "Details", to: "/events/leg2-details" }
